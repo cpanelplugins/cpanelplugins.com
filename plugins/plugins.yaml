@@ -1,0 +1,305 @@
+- title: Default plugin
+  repo: gridsome/gridsome-plugin-default
+  author: gridsome
+  featured: true
+
+- title: Default WordPress plugin
+  repo: gridsome/gridsome-plugin-wordpress
+  author: gridsome
+  platforms: wordpress
+  featured: true
+
+- title: Default Contentful plugin
+  repo: gridsome/gridsome-plugin-contentful
+  author: gridsome
+  tags: markdown, tailwind
+  platforms: contentful
+  featured: true
+
+- title: TODO
+  description: Sample Code for cPanel Conf 2016
+  screenshot: ./screenshots/todo.png
+  repo: squareplanetdesign/cpanel_todo_plugin
+  preview: https://documentation.cpanel.net/display/DD/Guide+to+cPanel+Plugins
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: MailSecure
+  description: Allows you to enable and disable Liquid Web MailSecure features per domain.
+  screenshot: ./screenshots/liquidweb.png
+  repo: mark012492/Liquid-Web-MailSecure-cPanel-Plugin
+  preview: https://www.markjb.com/
+  author: markjb
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: SSH Whitelist
+  description: Cpanel Plugin allows users to add IP to hosts.allow and locks ssh down
+  screenshot: ./screenshots/sshwhitelist.png
+  repo: djfordz/cpanel_ssh_whitelist
+  preview: https://www.djfordz.com/
+  author: djfordz
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: Clonador
+  description: Plugin de CPanel para clonar Wordpress
+  screenshot: ./screenshots/clonador.png
+  repo: rojo2530/clonador
+  preview: https://www.djfordz.com/
+  author: rojo2530
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: Varnish Cache
+  description: Varnish Cache for Cpanel
+  screenshot: ./screenshots/varnishcache.png
+  repo: djfordz/cpanel_varnish_plugin
+  preview: https://www.djfordz.com/
+  author: djfordz
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: 🔴 Simple Virus Scanner cpanel plugin
+  description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
+  screenshot: ./screenshots/svs.png
+  repo: stefanpejcic/simple-virus-scanner-cpanel-plugin
+  preview: https://gridsome-plugin-blnk.netlify.app
+  author: stefanpejcic
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: Migrate Email
+  description: A cPanel Plugin for migrating email from an IMAP service.
+  screenshot: ./screenshots/imaps.png
+  repo: CpanelInc/migrate-email
+  preview: https://github.com/CpanelInc/migrate-email
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: Installer for WordPress
+  description: Install WordPress in a few clicks.
+  screenshot: ./screenshots/wpinstall.png
+  repo: MPolleke/cPanel-Wordpress
+  preview: https://timelord.nl/cpanel-plugin-installer-for-wordpress?lang=en
+  author: timelord
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: Make Files Immutable
+  description: Allows normal cpanel users to make files immutable.
+  screenshot: ./screenshots/chattr.png
+  repo: stefanpejcic/cpanel_chattr_plugin
+  preview: https://www.djfordz.com/
+  author: djfordz
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: rsoRedis
+  description: A cPanel Plugin for controlling Redis instances by users.
+  screenshot: ./screenshots/redisplugin.png
+  repo: RSOHosting/cpanel_redis
+  preview: https://www.rso.bg/
+  author: rsohosting
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: Cpanel DNS Check Account WHM Plugin
+  description: Check if all domains are pointed to the server.
+  screenshot: ./screenshots/dns-checker.png
+  repo: stefanpejcic/cPanel-DNS-Check-Account-WHM-Plugin
+  preview: https://brasilcloud.com.br/
+  author: felipegabriel
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+- title: ArvanCloud
+  description: ArvanCloud cPanel Plugin to add and config domain in CDN panel directly from cPanel.
+  screenshot: ./screenshots/arvancloud.png
+  repo: arvancloud/ar-cpnlplugin
+  preview: https://www.arvancloud.com/docs/api/cdn/4.0
+  author: arvancloud
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+  
+- title: RBL Check cpanel plugin
+  description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
+  screenshot: ./screenshots/rbl-checker.png
+  repo: stefanpejcic/rbl-check-cpanel-plugin
+  preview: https://twblog.terabytetiger.com
+  author: stefanpejcic
+  tags: blog
+  platforms: strapi
+
+- title: Malware Scanner cpanel plugin
+  description: Scan PHP files for known malicious signatures.
+  screenshot: ./screenshots/malware-scanner.png
+  repo: stefanpejcic/malware-scanner-cpanel-plugin
+  preview: https://gridsome-geek-blog.netlify.app
+  author: stefanpejcic
+  tags: blog
+  platforms: strapi
+
+- title: IP Whitelister
+  description: cPanel plugin for cPanel users to whitelist their own IP's
+  screenshot: ./screenshots/ipwhitelist.png
+  repo: DowayneB/cPanel-IP-whitelister
+  preview: 
+  author: cpanelinc
+  tags: blog
+  platforms: strapi
+
+- title: Engintron for cPanel/WHM
+  description: Engintron for cPanel/WHM is the easiest way to integrate Nginx on your cPanel/WHM server.
+  screenshot: ./screenshots/engintron.png
+  repo: stefanpejcic/engintron
+  preview: https://engintron.com/docs
+  author: fevangelou
+  tags: blog
+  platforms: strapi
+
+- title: Fix Permissions cpanel Plugin
+  description: Fix permissions for each domain under a cpanel account
+  screenshot: ./screenshots/fixperms.png
+  repo: stefanpejcic/fixPermissions-cpanel-plugin
+  preview: https://cpanelplugins.com/fix
+  author: stefanpejcic
+  tags: blog, gridsome, tailwind, strapi, typescript
+  platforms: strapi
+
+- title: Inodes Usage Summary cpanel Plugin
+  description: Display Inodes and Disk usage summary for a cPanel account
+  screenshot: ./screenshots/inodes-usage-summary.png
+  repo: stefanpejcic/inodes-usage-summary-cPanel-plugin
+  preview: https://gridsome-plugin-scroll.deploy-now.site/
+  author: stefanpejcic
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+ 
+- title: MarketGoo plugin for Cpanel
+  description: MarketGoo is the most complete website marketing app offered to SMBs.
+  screenshot: ./screenshots/marketgoo.png
+  repo: marketgoo/cpanel.plugin
+  preview: https://www.marketgoo.com/
+  author: marketgoo
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+ 
+- title: Autom8n
+  description: High Available, DNS Load Balanced webstack on cPanel.
+  screenshot: ./screenshots/autometion.png
+  repo: AnoopAlias/AUTOM8N
+  preview: https://autom8n.com/
+  author: autometion
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi  
+
+- title: WatchMySQL
+  description: Monitor your MySQL server connection usage per cpanel user.
+  screenshot: ./screenshots/watchmysql.png
+  repo: konstantinosbotonakis/watchmysql
+  preview: https://www.ndchost.com/cpanel-whm/addons/watchmysql/
+  author: ndchost
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
+- title: Cpanel Linux Malware Detect
+  description: Add Linux Malware Detect (LMD) support to WHM for root users.
+  screenshot: ./screenshots/maldet.png
+  repo: steadramon/cpanel_addon-maldet
+  preview: https://github.com/steadramon/cpanel_addon-maldet
+  author: steadramon
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
+- title: Microweber Website Builder
+  description: Microweber is modern drag and drop website builder and CMS of new generation.
+  screenshot: ./screenshots/microweber.png
+  repo: microweber-dev/cpanel-plugin
+  preview: https://microweber.org/cpanel-plugin
+  author: petermw
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
+- title: Spam Experts
+  description: WHM/cPanel add-on for providing integration with SpamExperts services.
+  screenshot: ./screenshots/spamexperts.png
+  repo: SpamExperts/cpanel-addon
+  preview: https://documentation.n-able.com/spamexperts/userguide/Content/StartPages/MenuPage/GuideStart.htm
+  author: nable
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
+- title: cPBackIT Cpanel Backup Plugin
+  description: Backup Cpanel reseller accounts to remote FTP.
+  screenshot: ./screenshots/cPBackIT.png
+  repo: taidos/cPBackIT
+  preview: https://carlos-faustino.com/
+  author: taidos
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+  
+- title: Nimbusec
+  description: nimbusec cPanel / WHM plugin for hosters.
+  screenshot: ./screenshots/nimbusec.png
+  repo: cumulodev/nimbusec-cPanel
+  preview: https://nimbusec.com/
+  author: nimbusec
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+ 
+- title: iContact Cpanel Plugins
+  description: Extra "Contact Manager" Providers for cPanel and WHM.
+  screenshot: ./screenshots/icontacts.png
+  repo: Troglodyne-Internet-Widgets/iContact-cPanel-Plugins
+  preview: https://www.youtube.com/watch?v=vnCFlu2KzhI
+  author: troglodyne
+  tags: blog, gridsome, tailwind, strapi, typescript
+  platforms: strapi
+ 
+- title: Themely WordPress Installer
+  description: Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes.
+  screenshot: ./screenshots/themely.png
+  repo: ismaelyws/themely
+  preview: https://plugin.themely.com/
+  author: ismaelyws
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi  
+
+- title: 📜 Login Log cpanel plugin
+  description: Quickly view cPanel logins and check IPs in the AbuseIPDB
+  screenshot: ./screenshots/loginlog.png
+  repo: stefanpejcic/lastlogin-cpanel-plugin
+  preview: https://cpanelplugins.com/log
+  author: stefanpejcic
+  tags: blog, gridsome, tailwind, strapi, typescript
+  platforms: strapi
+  
+- title: WHM Seller
+  description: Create and manage Alpha/Master/Reseller accounts.
+  screenshot: ./screenshots/whmseller.png
+  repo: lucyfer622/whmseller
+  preview: https://carlos-faustino.com/
+  author: lucyfer622
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+  
+- title: RVsitebuilder
+  description: RVsitebuilder is a professional web publishing platform.
+  screenshot: ./screenshots/rvsitebuilder.png
+  repo: Nattawut9973/cpanel-plugins
+  preview: https://rvsitebuilder.com/demo/
+  author: RVGlobalsoft
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi  
+  
+- title: LSMCD Secure User Data
+  description: User interface for those CloudLinux/cPanel users using LSMCD configured with SASL and User-Level security.
+  screenshot: ./screenshots/lsmcd.png
+  repo: stefanpejcic/lsmcd_cpanel_plugin
+  preview: https://www.litespeedtech.com/support/wiki/doku.php/litespeed_wiki:lsmcd:user_cpanel
+  author: litespeedtech
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi

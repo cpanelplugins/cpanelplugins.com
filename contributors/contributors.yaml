@@ -1,0 +1,137 @@
+- id: stefanpejcic
+  name: Stefan Pejčić
+  bio: "a Linux SysAdmin and WordPress plugin developer"
+  avatar: "./images/stefanpejcic.jpg"
+  twitter: "@stefanpejcic"
+
+- id: litespeedtech
+  name: LiteSpeed Tech
+  bio: ⚡ Internet. Accelerated. ⚡
+  avatar: "./images/litespeed.jpg"
+  twitter: "@litespeedtech"
+
+- id: markjb
+  name: Marcus Benedict
+  bio: Red Hat Certified  Engineer 
+  avatar: "./images/markjb.jpg"
+  twitter: "@markjb"
+
+- id: rojo2530
+  name: Jose Cantos
+  bio: Web Developer
+  avatar: "./images/rojo2530.jpg"
+  twitter:
+
+- id: marketgoo
+  name: marketgoo
+  bio: Resell our SEO tools to help your customers succeed online.
+  avatar: "./images/marketgoo.png"
+  twitter: "@mktgoo"
+
+- id: taidos
+  name: Carlos Faustino
+  bio: "Administrador de Sistemas Informaticos"
+  avatar: "./images/taidos.jpg"
+  twitter: "@taid0s"
+
+- id: troglodyne
+  name: Troglodyne LLC
+  bio: "Administrador de Sistemas Informaticos"
+  avatar: "./images/troglodyne.jpg"
+  twitter: "@troglodyne"
+
+- id: fevangelou
+  name: Fotis Evangelou
+  bio: Open source software developer & sysadmin
+  avatar: "./images/fevangelou.jpg"
+  twitter: "@fevangelou"
+
+- id: felipegabriel
+  name: Felipe Gabriel
+  bio: Open source software developer & sysadmin
+  avatar: "./images/felipegabriel.jpg"
+  twitter: "@codebr"
+  
+- id: ismaelyws
+  name: Hans Desjarlais
+  bio: Founder & CEO @ Themely / CTO @ BAM! Radio Network
+  avatar: "./images/ismaelyws.jpg"
+  twitter: "@ismaelyws"
+  
+- id: nable
+  name: N-able Email Security
+  bio: N-able's email security team
+  avatar: "./images/nable.jpg"
+  twitter: "@nable"
+  
+- id: steadramon
+  name: Sea Animal Digimon
+  bio: 
+  avatar: "./images/steadramon.png"
+  twitter: "@nable"
+
+- id: petermw
+  name: Peter Ivanov
+  bio: Back-End Developer @ Microweber
+  avatar: "./images/petermw.png"
+  twitter: "@microweber"
+
+- id: ndchost
+  name: NETWORK DATA CENTER HOST, INC.
+  bio: Web Hosting & Cloud Services
+  avatar: "./images/ndchost.png"
+  twitter: "@ndchost"
+ 
+- id: timelord
+  name: Marcel Pol
+  bio: Web Hosting & Cloud Services
+  avatar: "./images/timelord.jpeg"
+  twitter: "@MPolleke"
+ 
+- id: autometion
+  name: AUTOM8N
+  bio: WHM/cPanel plugin providing a DNS load-balanced
+  avatar: "./images/autometion.png"
+  twitter: ""  
+
+- id: rsohosting
+  name: RSO Hosting
+  bio: Web and game hosting, web design and more.
+  avatar: "./images/rsohosting.png"
+  twitter: "rsobg"  
+
+- id: arvancloud
+  name: ArvanCloud
+  bio: Integrated Cloud Solutions for online businesses
+  avatar: "./images/arvancloud.jpg"
+  twitter: "ArvanCloud"  
+
+- id: lucyfer622
+  name: Jarnick Puaw
+  bio: PHP/HTML Developer
+  avatar: "./images/lucyfer622.png"
+  twitter: ""  
+  
+- id: nimbusec
+  name: nimbusec
+  bio: nimbusec website security monitoring is an advanced solution to identify malicious code and manipulated websites (defacement, malware, blacklists).
+  avatar: "./images/nimbusec.jpg"
+  twitter: "nimbusec"  
+  
+- id: cpanelinc
+  name: cPanel, L.L.C.
+  bio: cPanel provides the most reliable and intuitive server and site management platform.
+  avatar: "./images/cpanelinc.png"
+  twitter: "cpanel" 
+
+- id: RVGlobalsoft
+  name: RVGlobalsoft
+  bio: Be the first to try RVsitebuilder 7 demo for FREE at https://rvsitebuilder.com/demo/
+  avatar: "./images/RVGlobalsoft.jpg"
+  twitter: "RVGlobalsoft_"
+
+- id: djfordz
+  name: David Ford
+  bio: Software Engineer, Linus Torvalds admirer, Arch Linux lover, science geek, political pundit. Snowden supporter.
+  avatar: "./images/djfordz.jpg"
+  twitter: "djfordz"      
