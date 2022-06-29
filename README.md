@@ -1,6 +1,6 @@
 # cpanelplugins.com
 
-<img src="https://raw.githubusercontent.com/stefanpejcic/cpanelplugins.com/master/plugins/screenshots/cpanel-plugins-homepage.png"></img>
+<img src="https://raw.githubusercontent.com/cpanelplugins/cpanelplugins.com/master/plugins/screenshots/cpanel-plugins-homepage.png"></img>
 
 CpanelPlugins is a github-hosted open-source collection of free cPanel plugins.
 
@@ -11,14 +11,14 @@ To get your plugin listed, your plugin must be publicly available on Github.
 
 To add your plugin:
 
-1. Fork this repo [stefanpejcic/cpanelplugins.com](https://github.com/stefanpejcic/cpanelplugins.com)
+1. Fork this repo [cpanelplugins/cpanelplugins.com](https://github.com/cpanelplugins/cpanelplugins.com)
 2. Add your plugin information to the plugins/plugins.yaml file
 3. Make a pull request with the following title: ADD PLUGIN
 
 
 ## How to add a blog post
 
-1. Fork this repo [stefanpejcic/cpanelplugins.com](https://github.com/stefanpejcic/cpanelplugins.com)
+1. Fork this repo [cpanelplugins/cpanelplugins.com](https://github.com/cpanelplugins/cpanelplugins.com)
 2. Create a directory with the date and title of the post (e.g. 2022-06-26-cpanelplugins.com-is-live)
 3. Create index.md file inside it with the actual blog post
 4. Add your information inside contributors/contributors.yaml file and profile picture to contributors/images
