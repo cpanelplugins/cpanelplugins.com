@@ -4,6 +4,8 @@
 
 CpanelPlugins is a github-hosted open-source collection of free cPanel plugins.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/17640f2a-1ce1-4f0e-8bac-4f920a8f7543/deploy-status)](https://app.netlify.com/sites/sweet-peony-734550/deploys)
+
 ## How to add a plugin
 
 To get your plugin listed, your plugin must be publicly available on Github.
