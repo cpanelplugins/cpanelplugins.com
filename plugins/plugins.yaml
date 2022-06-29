@@ -46,7 +46,7 @@
 - title: Clonador
   description: Plugin de CPanel para clonar Wordpress
   screenshot: ./screenshots/clonador.png
-  repo: rojo2530/clonador
+  repo: cpanelplugins/clonador
   preview: https://www.djfordz.com/
   author: rojo2530
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
