@@ -9,7 +9,7 @@
 
       <p class="text-center">
         Want to contribute to our blog?
-        <g-link to="https://github.com/stefanpejcic/cpanelplugins.com/blob/master/README.md#how-to-add-a-blog-post"> Learn more here</g-link>
+        <g-link to="https://github.com/cpanelplugins/cpanelplugins.com/blob/master/README.md#how-to-add-a-blog-post"> Learn more here</g-link>
       </p>
 
     </Section>

@@ -6,7 +6,7 @@ date: 2021-06-20
 excerpt: "CpanelPlugins.com website is published!"
 ---
 
-<img src="https://raw.githubusercontent.com/stefanpejcic/cpanelplugins.com/master/plugins/screenshots/cpanel-plugins-homepage.png"></img>
+<img src="https://raw.githubusercontent.com/cpanelplugins/cpanelplugins.com/master/plugins/screenshots/cpanel-plugins-homepage.png"></img>
 
 cpanelplugins.com website is a fork of Gridsome.org and is hosted on netlify.
 
@@ -25,6 +25,6 @@ I want to personally thank him for his support of this project.
 
 To add your plugin:
 
-1. Fork this repo [stefanpejcic/cpanelplugins.com](https://github.com/stefanpejcic/cpanelplugins.com)
+1. Fork this repo [cpanelplugins/cpanelplugins.com](https://github.com/cpanelplugins/cpanelplugins.com)
 2. Add your plugin information to the plugins/plugins.yaml file
 3. Make a pull request with the following title: ADD PLUGIN
