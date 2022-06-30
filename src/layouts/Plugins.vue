@@ -4,15 +4,14 @@
 
       <div class="sidebar">
 
-          <h3 class="menu-item" >Developers</h3>
+          <h3 class="menu-item" >Useful cPanel Guides</h3>
 
           <ul>
-		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/taidos/">Carlos Faustino</a></li>
-		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/ismaelyws/">Hans Desjarlais</a></li>
-		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/stefanpejcic/">Stefan Pejcic</a></li>
-		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/fevangelou/">Fotis Evangelou</a></li>
-		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/felipegabriel/">Felipe Gabriel</a></li>
-		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/troglodyne/">Troglodyne LLC</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" target="_blank" href="https://pcx3.com/cp/how-to-create-a-cpanel-plugin/">How to create a CP plugin</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" target="_blank" href="https://documentation.cpanel.net/display/DD/Guide+to+cPanel+Plugins">Guide to cPanel Plugins</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" target="_blank" href="https://documentation.cpanel.net/display/DD/Guide+to+WHM+Plugins">Guide to WHM Plugins</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" target="_blank" href="https://documentation.cpanel.net/display/DD/Guide+to+Testing+Custom+Code">Testing Custom Code</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" target="_blank" href="https://docs.cpanel.net/whm/development/cpanel-plugin-file-generator/">Plugin File Generator</a></li>
 </ul>
           <hr />
           <a href="/submit/">Add your free plugin →</a>

@@ -1,7 +1,7 @@
 <template>
   <Plugins>
     <h1>Professional plugins for cPanel and WHM</h1>
-    <p class="mb-x2">Our products are easy to set up, compatible with older WHM versions and very easy to use. What is more, the modules can be combined in order to provide your customers with interesting product bundles like for example a VPS with additional cPanel plugins.</p>
+    <p class="mb-x2">cPanel plugins are easy to set up, compatible with older WHM versions and very easy to use. What is more, the modules can be combined in order to provide your customers with interesting product bundles like for example a VPS with additional cPanel plugins.</p>
 
     <!--div class="grid-cols grid-cols--3 mb">
       <PluginCard v-for="plugin in $page.defaultPlugins.edges" :key="plugin.node.id" :node="plugin.node"  />
