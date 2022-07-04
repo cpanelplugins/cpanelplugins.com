@@ -312,4 +312,12 @@
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
- 
+
+- title: BoldGrid Cpanel Plugin
+  description: BoldGrid cPanel integration plugin allows Server Administrators and web hosts to offer BoldGrid as a one-click installation directly from their users’ cPanel accounts
+  screenshot: ./screenshots/boldgrid.png
+  repo: cpanelplugins/BoldGrid-Cpanel-Plugin
+  preview: https://www.boldgrid.com/central/cloud-wordpress/try?theme=twentynineteen&plugins=https:%2F%2Frepo.boldgrid.com%2Fboldgrid-inspirations.zip
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
