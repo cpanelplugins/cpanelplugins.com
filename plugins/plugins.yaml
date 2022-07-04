@@ -303,3 +303,13 @@
   author: litespeedtech
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
+  
+- title: Cwatch Web Security Solution
+  description: FULLY MANAGED & COMPREHENSIVE SECURITY SOLUTION
+  screenshot: ./screenshots/cwatch.png
+  repo: cpanelplugins/cWatch-Web-Security
+  preview: https://cwatch.comodo.com/
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+ 
