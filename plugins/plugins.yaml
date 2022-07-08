@@ -348,3 +348,12 @@
   author: litespeedtech
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi   
+  
+- title: LiteSpeed
+  description: Manage your LSWS installation with ease, via cPanel and our WHM plugin
+  screenshot: ./screenshots/litespeed.png
+  repo: cpanelplugins/LiteSpeed
+  preview: https://www.litespeedtech.com/products/litespeed-web-server/control-panel-plugins/cpanel
+  author: litespeedtech
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi   
