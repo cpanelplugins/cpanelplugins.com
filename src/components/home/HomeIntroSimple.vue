@@ -3,7 +3,7 @@
     <div class="container text-center ">
 
         <h1 class="intro__title">
-          <span>Extend your hosting customers experience with free plugins for cPanel/WHM</span>
+          <span>Extend your hosting customers experience with awesome plugins for cPanel/WHM</span>
         </h1>
 
         <!--p class="intro__lead lead post mb">

@@ -339,3 +339,12 @@
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
+  
+- title: CloudLinux™
+  description: CloudLinux™ offers a secure version of Linux that provides advanced functionality for shared hosting environments.
+  screenshot: ./screenshots/cloudlinux.png
+  repo: cloudlinux/cloudlinux-whmcs-plugin
+  preview: https://docs.cpanel.net/knowledge-base/third-party/how-to-purchase-cloudlinux/
+  author: litespeedtech
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi   

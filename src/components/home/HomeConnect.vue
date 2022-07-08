@@ -4,7 +4,7 @@
       <div class="text-center">
         <h2>Custom cPanel Plugin Development</h2>
         <p class="lead">
-          We offer a broad range of services dedicated to hosting companies using cPanel and WHM. We will customize the software for you to automate your daily tasks and help you achieve all your goals.
+          Some of the best cPanel plugin developers are featured on our repository. They can customize the cPanel and WHM software for you to automate your daily tasks and help you achieve all your goals.
         </p>
         <p><g-link to="/plugins/">Hire cPanel Plugin Developers</g-link></p>
       </div>

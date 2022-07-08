@@ -3,7 +3,7 @@
     <Section container="sm" class="text-center">
       <h1>About CpanelPlugins</h1>
 
-      <p>CpanelPlugins is a github-hosted collection of free cPanel plugins.</p>
+      <p>CpanelPlugins is a github-hosted collection of awesome cPanel plugins.</p>
     </Section>
 	<Section container="sm">
 <p>To get your plugin listed, your plugin must be publicly available on Github.</p>
