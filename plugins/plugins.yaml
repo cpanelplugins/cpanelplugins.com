@@ -285,7 +285,16 @@
   author: lucyfer622
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
-  
+ 
+- title: ClamAV
+  description: The Virus Scanner interface scans your cPanel account for security threats. If ClamAV® Virus Scanner identifies a security threat, the system prompts you to perform an action.
+  screenshot: ./screenshots/clamav.png
+  repo: cpanelplugins/ClamAV
+  preview: https://docs.cpanel.net/cpanel/advanced/virus-scanner/
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
+ 
 - title: RVsitebuilder
   description: RVsitebuilder is a professional web publishing platform.
   screenshot: ./screenshots/rvsitebuilder.png
