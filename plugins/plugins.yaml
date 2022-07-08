@@ -321,3 +321,12 @@
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
+  
+- title: WordPress Toolkit
+  description: The WordPress Toolkit plugin allows you to easily install, configure, and manage WordPress®
+  screenshot: ./screenshots/wptoolkit.png
+  repo: cpanelplugins/WordPress-Toolkit
+  preview: https://cpanel.net/wp-toolkit/
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
