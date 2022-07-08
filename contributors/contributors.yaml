@@ -10,6 +10,18 @@
   avatar: "./images/litespeed.jpg"
   twitter: "@litespeedtech"
 
+- id: comodo
+  name: Comodo Security Solutions, Inc
+  bio: Website Security is a protection for websites, web applications and web servers against the increasing website hacking threats.
+  avatar: "./images/comodo.jpg"
+  twitter: "@comodo"
+
+- id: boldgrid
+  name: Marcus Benedict
+  bio: WordPress Website Builder, Total Cache, Total Upkeep, Crio and More.
+  avatar: "./images/boldgrid.jpg"
+  twitter: "@boldgrid"
+
 - id: markjb
   name: Marcus Benedict
   bio: Red Hat Certified  Engineer 

@@ -309,7 +309,7 @@
   screenshot: ./screenshots/cwatch.png
   repo: cpanelplugins/cWatch-Web-Security
   preview: https://cwatch.comodo.com/
-  author: cpanelinc
+  author: comodo
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
@@ -318,7 +318,7 @@
   screenshot: ./screenshots/boldgrid.png
   repo: cpanelplugins/BoldGrid-Cpanel-Plugin
   preview: https://www.boldgrid.com/central/cloud-wordpress/try?theme=twentynineteen&plugins=https:%2F%2Frepo.boldgrid.com%2Fboldgrid-inspirations.zip
-  author: cpanelinc
+  author: boldgrid
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
   
