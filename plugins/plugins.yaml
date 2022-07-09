@@ -141,6 +141,15 @@
   author: stefanpejcic
   tags: blog
   platforms: strapi
+  
+- title: ApacheBooster
+  description: Advanced cPanelPlugin Integrated with Nginx & Varnish, enhances the web ServerPerformance of Apache software.
+  screenshot: ./screenshots/apachebooster.png
+  repo: cpanelplugins/ApacheBooster
+  preview: https://www.apachebooster.com/
+  author: apachebooster
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi  
 
 - title: Malware Scanner cpanel plugin
   description: Scan PHP files for known malicious signatures.

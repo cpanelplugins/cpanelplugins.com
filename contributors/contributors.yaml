@@ -15,6 +15,12 @@
   bio: The Client Management, Billing & Support Solution for Web Hosts.
   avatar: "./images/whmcs.jpg"
   twitter: "@whmcs"
+  
+- id: apachebooster
+  name: ApacheBooster
+  bio: Advanced cPanelPlugin Integrated with Nginx & Varnish, enhances the web ServerPerformance of Apache software.
+  avatar: "./images/apachebooster.jpg"
+  twitter: "@apachebooster"
 
 - id: softaculous
   name: Softaculous
