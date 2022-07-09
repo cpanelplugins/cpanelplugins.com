@@ -267,15 +267,6 @@
   author: ismaelyws
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi  
-
-- title: 📜 Login Log cpanel plugin
-  description: Quickly view cPanel logins and check IPs in the AbuseIPDB
-  screenshot: ./screenshots/loginlog.png
-  repo: stefanpejcic/lastlogin-cpanel-plugin
-  preview: https://cpanelplugins.com/log
-  author: stefanpejcic
-  tags: blog, gridsome, tailwind, strapi, typescript
-  platforms: strapi
   
 - title: WHM Seller
   description: Create and manage Alpha/Master/Reseller accounts.
@@ -330,7 +321,16 @@
   author: boldgrid
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
- 
+  
+- title: Installatron
+  description: Installatron is a one-click web application installer that enables blogs, photo galleries, forums, shops, and other top web applications to be instantly installed and effortlessly managed.
+  screenshot: ./screenshots/installatron.png
+  repo: cpanelplugins/Installatron
+  preview: https://installatron.com/plugin
+  author: installatron
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
+  
 - title: WHMCS
   description: WHMCS is a billing platform of choice by cPanel Powered Web Hosting companies.
   screenshot: ./screenshots/whmcs.png
@@ -348,13 +348,22 @@
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
+  
+- title: 📜 Login Log cpanel plugin
+  description: Quickly view cPanel logins and check IPs in the AbuseIPDB
+  screenshot: ./screenshots/loginlog.png
+  repo: stefanpejcic/lastlogin-cpanel-plugin
+  preview: https://cpanelplugins.com/log
+  author: stefanpejcic
+  tags: blog, gridsome, tailwind, strapi, typescript
+  platforms: strapi
  
-- title: Installatron
-  description: Installatron is a one-click web application installer that enables blogs, photo galleries, forums, shops, and other top web applications to be instantly installed and effortlessly managed.
-  screenshot: ./screenshots/installatron.png
-  repo: cpanelplugins/Installatron
-  preview: https://installatron.com/plugin
-  author: installatron
+- title: Softaculous
+  description: One Click Install for 381 apps from your cPanel
+  screenshot: ./screenshots/softaculous.png
+  repo: cpanelplugins/Softaculous
+  preview: https://www.softaculous.com/softaculous/cpanel
+  author: softaculous
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
  

@@ -16,6 +16,12 @@
   avatar: "./images/whmcs.jpg"
   twitter: "@whmcs"
 
+- id: softaculous
+  name: Softaculous
+  bio: An easy to use installer for 400+ apps with a WordPress Manager
+  avatar: "./images/softaculous.png"
+  twitter: "@softaculous"
+
 - id: comodo
   name: Comodo Security Solutions, Inc
   bio: Website Security is a protection for websites, web applications and web servers against the increasing website hacking threats.
