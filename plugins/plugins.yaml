@@ -79,6 +79,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: Fantastico F3
+  description: Fantastico F3 is the leading autoinstaller for webhosting servers.
+  screenshot: ./screenshots/fantastico.png
+  repo: cpanelplugins/Fantastico
+  preview: https://netenberg.com/fantastico-installation.html
+  author: fantastico
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: Installer for WordPress
   description: Install WordPress in a few clicks.
   screenshot: ./screenshots/wpinstall.png

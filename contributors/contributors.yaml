@@ -22,6 +22,12 @@
   avatar: "./images/softaculous.png"
   twitter: "@softaculous"
 
+- id: fantastico
+  name: Cosmopoly EOOD
+  bio: An easy to use installer for 400+ apps with a WordPress Manager
+  avatar: "./images/netenberg.jpg"
+  twitter: "@netenberg"
+
 - id: comodo
   name: Comodo Security Solutions, Inc
   bio: Website Security is a protection for websites, web applications and web servers against the increasing website hacking threats.
