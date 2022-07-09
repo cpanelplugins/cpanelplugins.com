@@ -10,6 +10,12 @@
   avatar: "./images/litespeed.jpg"
   twitter: "@litespeedtech"
 
+- id: whmcs
+  name: WHMCS
+  bio: The Client Management, Billing & Support Solution for Web Hosts.
+  avatar: "./images/whmcs.jpg"
+  twitter: "@whmcs"
+
 - id: comodo
   name: Comodo Security Solutions, Inc
   bio: Website Security is a protection for websites, web applications and web servers against the increasing website hacking threats.

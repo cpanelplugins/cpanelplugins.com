@@ -330,7 +330,16 @@
   author: boldgrid
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
-  
+ 
+- title: WHMCS
+  description: WHMCS is the &#35;1 billing platform of choice by cPanel Powered Web Hosting companies.
+  screenshot: ./screenshots/whmcs.png
+  repo: cpanelplugins/WHMCS
+  preview: https://www.whmcs.com/for/cpanel/
+  author: whmcs
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
+ 
 - title: WordPress Toolkit
   description: The WordPress Toolkit plugin allows you to easily install, configure, and manage WordPress®
   screenshot: ./screenshots/wptoolkit.png
