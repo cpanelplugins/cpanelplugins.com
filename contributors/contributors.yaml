@@ -28,6 +28,12 @@
   avatar: "./images/boldgrid.jpg"
   twitter: "@boldgrid"
 
+- id: installatron
+  name: Installatron
+  bio: Automating web applications for businesses and website owners worldwide since 2004.
+  avatar: "./images/installatron.jpg"
+  twitter: "@installatron"
+
 - id: markjb
   name: Marcus Benedict
   bio: Red Hat Certified  Engineer 

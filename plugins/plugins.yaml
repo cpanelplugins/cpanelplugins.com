@@ -332,7 +332,7 @@
   platforms: strapi 
  
 - title: WHMCS
-  description: WHMCS is the &#35;1 billing platform of choice by cPanel Powered Web Hosting companies.
+  description: WHMCS is a billing platform of choice by cPanel Powered Web Hosting companies.
   screenshot: ./screenshots/whmcs.png
   repo: cpanelplugins/WHMCS
   preview: https://www.whmcs.com/for/cpanel/
@@ -348,7 +348,16 @@
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
-  
+ 
+- title: Installatron
+  description: Installatron is a one-click web application installer that enables blogs, photo galleries, forums, shops, and other top web applications to be instantly installed and effortlessly managed.
+  screenshot: ./screenshots/installatron.png
+  repo: cpanelplugins/Installatron
+  preview: https://installatron.com/plugin
+  author: installatron
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
+ 
 - title: CloudLinux™
   description: CloudLinux™ offers a secure version of Linux that provides advanced functionality for shared hosting environments.
   screenshot: ./screenshots/cloudlinux.png
