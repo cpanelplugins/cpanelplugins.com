@@ -56,3 +56,12 @@ date: 2021-06-26
 excerpt: "CpanelPlugins.com website is published!"
 ---
 ```
+
+---
+
+
+TODO:
+
+- add sitemap generator
+- set white theme as default
+- 
