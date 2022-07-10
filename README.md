@@ -26,15 +26,15 @@ To add your plugin:
 
 NOTE: The blog post (index.md) file must contain the following information at the top:
 
-`
+```
 ---
 title | slug | author | date | excerpt
 ---
-`
+```
 
 for example:
 
-`
+```
 ---
 title: CpanelPlugins.com Is live 🎉🎉🎉
 slug: cpanel-plugins-is-live
@@ -42,4 +42,4 @@ author: [stefanpejcic]
 date: 2021-06-26
 excerpt: "CpanelPlugins.com website is published!"
 ---
-`
+```
