@@ -14,6 +14,19 @@ To add your plugin:
 2. Add your plugin information to the plugins/plugins.yaml file
 3. Make a pull request with the following title: ADD PLUGIN
 
+NOTE: The plugin information shoud be in the following format:
+
+```
+- title: TODO
+  description: Sample Code for cPanel Conf 2016
+  screenshot: ./screenshots/todo.png
+  repo: squareplanetdesign/cpanel_todo_plugin
+  preview: https://documentation.cpanel.net/display/DD/Guide+to+cPanel+Plugins
+  author: cpanelinc
+  tags: todo, plugin, free
+  platforms: strapi
+```
+
 
 ## How to add a blog post
 
