@@ -401,4 +401,14 @@
   preview: https://www.litespeedtech.com/products/litespeed-web-server/control-panel-plugins/cpanel
   author: litespeedtech
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi   
+  platforms: strapi 
+  
+  
+ - title: SitePad
+  description: SitePad Website Builder helps you build professional websites using a drag and drop editor
+  screenshot: ./screenshots/sitepad.png
+  repo: cpanelplugins/SitePad
+  preview: https://sitepad.com/demo/
+  author: softaculous
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
