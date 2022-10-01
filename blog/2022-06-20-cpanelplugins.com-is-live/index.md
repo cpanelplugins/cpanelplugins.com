@@ -1,5 +1,5 @@
 ---
-title: CpanelPlugins.com Is live 🎉🎉🎉
+title: CpanelPlugins.com is live 🎉🎉🎉
 slug: cpanel-plugins-is-live
 author: [stefanpejcic]
 date: 2021-06-20
@@ -10,7 +10,7 @@ excerpt: "CpanelPlugins.com website is published!"
 
 cpanelplugins.com website is a fork of Gridsome.org and is hosted on netlify.
 
-I created this website as an alternative to Cpanel AppCatalog because it hasn't been updated in years and of you want to submit a plugin, their review process takes weeks.
+I created this website as an alternative to Cpanel AppCatalog because it hasn't been updated in years and if you want to submit a plugin, their review process takes weeks.
 
 The website creates a plugin page for each github repo added inside plugins.yaml file
 
