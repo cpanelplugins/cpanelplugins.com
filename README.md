@@ -49,7 +49,7 @@ for example:
 
 ```
 ---
-title: CpanelPlugins.com Is live 🎉🎉🎉
+title: CpanelPlugins.com is live 🎉🎉🎉
 slug: cpanel-plugins-is-live
 author: [stefanpejcic]
 date: 2021-06-26
@@ -62,6 +62,4 @@ excerpt: "CpanelPlugins.com website is published!"
 
 TODO:
 
-- add sitemap generator
-- set white theme as default
-- 
+- add sitemap generator 
