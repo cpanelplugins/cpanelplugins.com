@@ -5,7 +5,7 @@
       <Card title="cPanel plugins">
         <h4>Recent</h4>
 		<ul class="bullet-list mb">
-          <li>🗜️ <g-link to="/plugins/themely-word-press-installer/">Themely WordPress Installer</g-link></li>
+          <li>🌐 <g-link to="/plugins/site-pad/">SitePad Website Builder</g-link></li>
 		  <li>📜 <g-link to="/plugins/login-log-cpanel-plugin">Login Log cPanel plugin</g-link></li>
           <li>💰 <g-link to="/plugins/whm-seller/">WHM Seller</g-link></li>
 		  <li>💾 <g-link to="/plugins/c-p-back-it-cpanel-backup-plugin/">cPBackIT Backup Plugin</g-link></li>
