@@ -403,8 +403,7 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
   
-  
- - title: SitePad
+- title: SitePad
   description: SitePad Website Builder helps you build professional websites using a drag and drop editor
   screenshot: ./screenshots/sitepad.png
   repo: cpanelplugins/SitePad
