@@ -27,7 +27,7 @@
         </div>
 
         <p class="works__powered-by">
-          Compatible with v.<strong>104</strong>
+          Compatible with v.<strong>108</strong>
         </p>
 
         <template slot="outer">
