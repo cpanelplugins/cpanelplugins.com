@@ -137,7 +137,7 @@
   description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
   screenshot: ./screenshots/rbl-checker.png
   repo: stefanpejcic/rbl-check-cpanel-plugin
-  preview: https://twblog.terabytetiger.com
+  preview: https://demo.cpanelplugins.com/rbl/
   author: stefanpejcic
   tags: blog
   platforms: strapi
@@ -191,7 +191,7 @@
   description: Display Inodes and Disk usage summary for a cPanel account
   screenshot: ./screenshots/inodes-usage-summary.png
   repo: stefanpejcic/inodes-usage-summary-cPanel-plugin
-  preview: https://gridsome-plugin-scroll.deploy-now.site/
+  preview: https://demo.cpanelplugins.com/inodes/
   author: stefanpejcic
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
