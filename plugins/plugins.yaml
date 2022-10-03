@@ -65,7 +65,7 @@
   description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
   screenshot: ./screenshots/svs.png
   repo: stefanpejcic/simple-virus-scanner-cpanel-plugin
-  preview: https://gridsome-plugin-blnk.netlify.app
+  preview: https://demo.cpanelplugins.com/svs/
   author: stefanpejcic
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
@@ -155,7 +155,7 @@
   description: Scan PHP files for known malicious signatures.
   screenshot: ./screenshots/malware-scanner.png
   repo: stefanpejcic/malware-scanner-cpanel-plugin
-  preview: https://gridsome-geek-blog.netlify.app
+  preview: https://demo.cpanelplugins.com/malwarescanner/
   author: stefanpejcic
   tags: blog
   platforms: strapi
@@ -182,7 +182,7 @@
   description: Fix permissions for each domain under a cpanel account
   screenshot: ./screenshots/fixperms.png
   repo: stefanpejcic/fixPermissions-cpanel-plugin
-  preview: https://cpanelplugins.com/fix
+  preview: https://demo.cpanelplugins.com/fixpermissions/
   author: stefanpejcic
   tags: blog, gridsome, tailwind, strapi, typescript
   platforms: strapi
@@ -371,7 +371,7 @@
   description: Quickly view cPanel logins and check IPs in the AbuseIPDB
   screenshot: ./screenshots/loginlog.png
   repo: stefanpejcic/lastlogin-cpanel-plugin
-  preview: https://cpanelplugins.com/log
+  preview: https://demo.cpanelplugins.com/loginlog/
   author: stefanpejcic
   tags: blog, gridsome, tailwind, strapi, typescript
   platforms: strapi
