@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.0",
-  "name": "gridsome.org",
+  "name": "cpanelplugins.com",
   "scripts": {
     "develop": "gridsome develop",
     "explore": "gridsome explore",
