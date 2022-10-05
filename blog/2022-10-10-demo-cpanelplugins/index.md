@@ -6,7 +6,7 @@ date: 2021-10-10
 excerpt: "test free cpanel plugins online on demo.cpanelplugins.com"
 ---
 
-<img src="https://demo.cpanelplugins.com/screenshot.png"></img>
+<a href="https://demo.cpanelplugins.com/" target="_blank"><img src="https://demo.cpanelplugins.com/screenshot.png"></img></a>
 
 Demo site where users can test free cpanel plugins without needing to setup a cpanel server and installing the plugin.
 
