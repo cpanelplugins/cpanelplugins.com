@@ -1,7 +1,7 @@
 <template>
   <nav class="main-nav flex gap-15">
 
-    <g-link to="cpanelplugins.com">
+    <g-link to="https://cpanelplugins.com/" target="_self">
       <span class="main-nav__label">Home</span>
     </g-link>
     
