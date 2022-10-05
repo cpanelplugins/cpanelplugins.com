@@ -1,6 +1,10 @@
 <template>
   <nav class="main-nav flex gap-15">
 
+    <g-link to="/">
+      <span class="main-nav__label">Home</span>
+    </g-link>
+    
     <g-link to="/plugins/">
       <span class="main-nav__label">Plugins</span>
     </g-link>
