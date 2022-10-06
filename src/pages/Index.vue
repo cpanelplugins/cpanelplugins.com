@@ -55,7 +55,7 @@ export default {
   },
   
   metaInfo: {
-    title: 'Unique cPanel and WordPress plugins'
+    title: 'Free & Premium cPanel Plugins Directory'
   }
 }
 </script>
