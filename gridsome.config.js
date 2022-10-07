@@ -2,7 +2,7 @@ const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
   siteName: 'CpanelPlugins',
-  siteUrl: `https://www.cpanelplugins.com`,
+  siteUrl: `https://cpanelplugins.com`,
   titleTemplate: '%s - CpanelPlugins',
   siteDescription: 'Extend your hosting customers experience with our custom plugins for cPanel/WHM',
 
