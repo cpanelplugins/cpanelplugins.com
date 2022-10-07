@@ -18,6 +18,14 @@
   </Layout>
 </template>
 
+<script>
+export default {
+  metaInfo: {
+    title: 'Submit a plugin'
+  }
+}
+</script>
+
 <style lang="scss">
 .logo-container {
 	text-align: center;
