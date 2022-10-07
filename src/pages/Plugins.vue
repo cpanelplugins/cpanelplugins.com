@@ -26,7 +26,7 @@ export default {
     PluginCard
   },
   metaInfo: {
-    title: 'cPanel plugins'
+    title: '100+ Free & Premium cPanel Plugins'
   }
 }
 </script>
