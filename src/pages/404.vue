@@ -5,3 +5,11 @@
     </Section>
   </Layout>
 </template>
+
+<script>
+export default {
+  metaInfo: {
+    title: '404 ERROR'
+  }
+}
+</script>
