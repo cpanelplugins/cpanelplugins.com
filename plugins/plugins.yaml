@@ -411,3 +411,12 @@
   author: softaculous
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi 
+
+- title: Remote file download
+  description: Download remote files from github or any other server
+  screenshot: ./screenshots/remotedwnld.png
+  repo: stefanpejcic/remote-file-download-cpanel-plugin
+  preview: https://demo.cpanelplugins.com/remote/
+  author: stefanpejcic
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi 
