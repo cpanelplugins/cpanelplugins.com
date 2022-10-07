@@ -22,3 +22,11 @@
     </Section>
   </Layout>
 </template>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'cPanel Developers'
+  }
+}
+</script>
