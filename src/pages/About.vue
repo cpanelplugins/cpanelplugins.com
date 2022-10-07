@@ -17,6 +17,14 @@
   </Layout>
 </template>
 
+<script>
+export default {
+  metaInfo: {
+    title: 'About CpanelPlugins.com'
+  }
+}
+</script>
+
 <style lang="scss">
 .logo-container {
 	text-align: center;
