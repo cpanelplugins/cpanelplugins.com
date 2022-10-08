@@ -163,7 +163,7 @@
 - title: IP Whitelister
   description: cPanel plugin for cPanel users to whitelist their own IP's
   screenshot: ./screenshots/ipwhitelist.png
-  repo: DowayneB/cPanel-IP-whitelister
+  repo: gerhardniemand/cPanel-IP-whitelister
   preview: 
   author: cpanelinc
   tags: blog
