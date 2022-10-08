@@ -9,13 +9,11 @@
 	<Section container="sm">
 <p>I created this website as an alternative to Cpanel AppCatalog because it hasn't been updated in years and if you want to submit a plugin, their review process takes weeks.
 The website creates a plugin page for each github repo added inside plugins.yaml file</p>
-<p>To get your plugin listed, your plugin must be publicly available on Github.</p>
+<p>To add your cpanel plugin click on the big orange button in upper right corner.</p>
 </br>
-<p>To add your plugin:</p>
-<p>1. Fork <a href="https://github.com/cpanelplugins/cpanelplugins.com" target="_blank">cpanelplugins/cpanelplugins.com</a></br>
-2. Add your plugin information to the <a href="https://github.com/cpanelplugins/cpanelplugins.com/edit/main/plugins/plugins.yaml" target="_blank">plugins/plugins.yaml</a> file</br>
-3. Make a pull request with the following title: ADD PLUGIN</p>
-</br>
+    </Section>
+    <Section container="sm" class="text-right">
+      <p>- <a href="https://pejcic.rs" target="_blank">Stefan Pejcic</a></p>
     </Section>
   </Layout>
 </template>
