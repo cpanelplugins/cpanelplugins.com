@@ -9,11 +9,7 @@
 	<Section container="sm">
 <p>I created this website as an alternative to Cpanel AppCatalog because it hasn't been updated in years and if you want to submit a plugin, their review process takes weeks.
 The website creates a plugin page for each github repo added inside plugins.yaml file</p>
-<p>To add your cpanel plugin click on the big orange button in upper right corner.</p>
-</br>
-    </Section>
-    <Section container="sm" class="text-right">
-      <p>- <a href="https://pejcic.rs" target="_blank">Stefan Pejcic</a></p>
+<p>To add your cpanel plugin click on the big button in upper right corner. ☝️</p>
     </Section>
   </Layout>
 </template>
