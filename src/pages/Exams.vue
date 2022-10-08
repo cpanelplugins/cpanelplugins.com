@@ -18,7 +18,7 @@
 
 <page-query>
 query {
-  posts: allBlogPost {
+  posts: allExamsPost {
     edges {
       node {
         id
