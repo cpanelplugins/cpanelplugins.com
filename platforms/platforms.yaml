@@ -1,7 +1,9 @@
 - id: cp
   title: cPanel
+  description: testing desc
   logo: ./logos/cp.svg
 
 - id: whm
   title: WHM
+  description: testing desc
   logo: ./logos/whm.svg
