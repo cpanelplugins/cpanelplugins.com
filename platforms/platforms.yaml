@@ -1,3 +1,7 @@
 - id: strapi
   title: cPanel
   logo: ./logos/cp.svg
+
+- id: whm
+  title: WHM
+  logo: ./logos/whm.svg
