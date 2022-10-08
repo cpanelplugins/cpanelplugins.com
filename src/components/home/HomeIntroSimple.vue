@@ -13,7 +13,7 @@
         <p class="intro__links">
           <g-link  to="/plugins/platform/cp/" class="button primary button--large">
             <span>cPanel plugins</span>
-          </g-link>
+          </g-link>&nbsp;&nbsp;
           <g-link  to="/plugins/platform/whm/" class="button secondary button--large">
             <span>WHM plugins</span>
           </g-link>
