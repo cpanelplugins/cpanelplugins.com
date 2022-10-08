@@ -4,8 +4,11 @@
       <h1>About CpanelPlugins</h1>
 
       <p>CpanelPlugins is a github-hosted collection of awesome cPanel plugins.</p>
+      <p>Built with <a href="https://github.com/gridsome/gridsome" target="_blank">Gridsome</a> and hosted on <a href="https://vercel.com/" target="_blank">Vercel</a></p>
     </Section>
 	<Section container="sm">
+<p>I created this website as an alternative to Cpanel AppCatalog because it hasn't been updated in years and if you want to submit a plugin, their review process takes weeks.
+The website creates a plugin page for each github repo added inside plugins.yaml file</p>
 <p>To get your plugin listed, your plugin must be publicly available on Github.</p>
 </br>
 <p>To add your plugin:</p>
