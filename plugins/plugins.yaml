@@ -23,7 +23,7 @@
   preview: https://documentation.cpanel.net/display/DD/Guide+to+cPanel+Plugins
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: MailSecure
   description: Allows you to enable and disable Liquid Web MailSecure features per domain.
@@ -32,7 +32,7 @@
   preview: https://www.markjb.com/
   author: markjb
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: SSH Whitelist
   description: Cpanel Plugin allows users to add IP to hosts.allow and locks ssh down
@@ -41,7 +41,7 @@
   preview: https://www.djfordz.com/
   author: djfordz
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: Clonador
   description: Plugin de CPanel para clonar Wordpress
@@ -50,7 +50,7 @@
   preview: https://www.djfordz.com/
   author: rojo2530
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: Varnish Cache
   description: Varnish Cache for Cpanel
@@ -59,7 +59,7 @@
   preview: https://www.djfordz.com/
   author: djfordz
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: 🔴 Simple Virus Scanner cpanel plugin
   description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
@@ -68,7 +68,7 @@
   preview: https://demo.cpanelplugins.com/svs/
   author: stefanpejcic
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: Migrate Email
   description: A cPanel Plugin for migrating email from an IMAP service.
@@ -77,7 +77,7 @@
   preview: https://github.com/CpanelInc/migrate-email
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: Fantastico F3
   description: Fantastico F3 is the leading autoinstaller for webhosting servers.
@@ -86,7 +86,7 @@
   preview: https://netenberg.com/fantastico-installation.html
   author: fantastico
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: Installer for WordPress
   description: Install WordPress in a few clicks.
@@ -95,7 +95,7 @@
   preview: https://timelord.nl/cpanel-plugin-installer-for-wordpress?lang=en
   author: timelord
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: Make Files Immutable
   description: Allows normal cpanel users to make files immutable.
@@ -104,7 +104,7 @@
   preview: https://www.djfordz.com/
   author: djfordz
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: rsoRedis
   description: A cPanel Plugin for controlling Redis instances by users.
@@ -113,7 +113,7 @@
   preview: https://www.rso.bg/
   author: rsohosting
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: Cpanel DNS Check Account WHM Plugin
   description: Check if all domains are pointed to the server.
@@ -131,7 +131,7 @@
   preview: https://www.arvancloud.com/docs/api/cdn/4.0
   author: arvancloud
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
   
 - title: RBL Check cpanel plugin
   description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
@@ -140,7 +140,7 @@
   preview: https://demo.cpanelplugins.com/rbl/
   author: stefanpejcic
   tags: blog
-  platforms: strapi
+  platforms: cp
   
 - title: ApacheBooster
   description: Advanced cPanelPlugin Integrated with Nginx & Varnish, enhances the web ServerPerformance of Apache software.
@@ -158,7 +158,7 @@
   preview: https://demo.cpanelplugins.com/malwarescanner/
   author: stefanpejcic
   tags: blog
-  platforms: strapi
+  platforms: cp
 
 - title: IP Whitelister
   description: cPanel plugin for cPanel users to whitelist their own IP's
@@ -167,7 +167,7 @@
   preview: 
   author: cpanelinc
   tags: blog
-  platforms: strapi
+  platforms: cp
 
 - title: Engintron for cPanel/WHM
   description: Engintron for cPanel/WHM is the easiest way to integrate Nginx on your cPanel/WHM server.
@@ -184,8 +184,8 @@
   repo: stefanpejcic/fixPermissions-cpanel-plugin
   preview: https://demo.cpanelplugins.com/fixpermissions/
   author: stefanpejcic
-  tags: blog, gridsome, tailwind, strapi, typescript
-  platforms: strapi
+  tags: blog, gridsome, tailwind, cp, typescript
+  platforms: cp
 
 - title: Inodes Usage Summary cpanel Plugin
   description: Display Inodes and Disk usage summary for a cPanel account
@@ -194,7 +194,7 @@
   preview: https://demo.cpanelplugins.com/inodes/
   author: stefanpejcic
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: cp
  
 - title: MarketGoo plugin for Cpanel
   description: MarketGoo is the most complete website marketing app offered to SMBs.
@@ -203,7 +203,7 @@
   preview: https://www.marketgoo.com/
   author: marketgoo
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: cp
  
 - title: Autom8n
   description: High Available, DNS Load Balanced webstack on cPanel.
@@ -212,7 +212,7 @@
   preview: https://autom8n.com/
   author: autometion
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi  
+  platforms: cp  
 
 - title: WatchMySQL
   description: Monitor your MySQL server connection usage per cpanel user.
@@ -230,7 +230,7 @@
   preview: https://github.com/steadramon/cpanel_addon-maldet
   author: steadramon
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: cp
 
 - title: Microweber Website Builder
   description: Microweber is modern drag and drop website builder and CMS of new generation.
@@ -239,7 +239,7 @@
   preview: https://microweber.org/cpanel-plugin
   author: petermw
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: cp
 
 - title: Spam Experts
   description: WHM/cPanel add-on for providing integration with SpamExperts services.
@@ -257,7 +257,7 @@
   preview: https://carlos-faustino.com/
   author: taidos
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: cp
   
 - title: Nimbusec
   description: nimbusec cPanel / WHM plugin for hosters.
@@ -266,7 +266,7 @@
   preview: https://nimbusec.com/
   author: nimbusec
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: cp
  
 - title: iContact Cpanel Plugins
   description: Extra "Contact Manager" Providers for cPanel and WHM.
@@ -274,7 +274,7 @@
   repo: Troglodyne-Internet-Widgets/iContact-cPanel-Plugins
   preview: https://www.youtube.com/watch?v=vnCFlu2KzhI
   author: troglodyne
-  tags: blog, gridsome, tailwind, strapi, typescript
+  tags: blog, gridsome, tailwind, cp, typescript
   platforms: whm
  
 - title: Themely WordPress Installer
@@ -284,7 +284,7 @@
   preview: https://plugin.themely.com/
   author: ismaelyws
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi  
+  platforms: cp  
   
 - title: WHM Seller
   description: Create and manage Alpha/Master/Reseller accounts.
@@ -302,7 +302,7 @@
   preview: https://docs.cpanel.net/cpanel/advanced/virus-scanner/
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
  
 - title: RVsitebuilder
   description: RVsitebuilder is a professional web publishing platform.
@@ -311,7 +311,7 @@
   preview: https://rvsitebuilder.com/demo/
   author: RVGlobalsoft
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi  
+  platforms: cp  
   
 - title: LSMCD Secure User Data
   description: User interface for those CloudLinux/cPanel users using LSMCD configured with SASL and User-Level security.
@@ -329,7 +329,7 @@
   preview: https://cwatch.comodo.com/
   author: comodo
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: cp
 
 - title: BoldGrid Cpanel Plugin
   description: BoldGrid cPanel integration plugin allows Server Administrators and web hosts to offer BoldGrid as a one-click installation directly from their users’ cPanel accounts
@@ -338,7 +338,7 @@
   preview: https://www.boldgrid.com/central/cloud-wordpress/try?theme=twentynineteen&plugins=https:%2F%2Frepo.boldgrid.com%2Fboldgrid-inspirations.zip
   author: boldgrid
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
   
 - title: Installatron
   description: Installatron is a one-click web application installer that enables blogs, photo galleries, forums, shops, and other top web applications to be instantly installed and effortlessly managed.
@@ -347,7 +347,7 @@
   preview: https://installatron.com/plugin
   author: installatron
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
   
 - title: WHMCS
   description: WHMCS is a billing platform of choice by cPanel Powered Web Hosting companies.
@@ -356,7 +356,7 @@
   preview: https://www.whmcs.com/for/cpanel/
   author: whmcs
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
  
 - title: WordPress Toolkit
   description: The WordPress Toolkit plugin allows you to easily install, configure, and manage WordPress®
@@ -365,7 +365,7 @@
   preview: https://cpanel.net/wp-toolkit/
   author: cpanelinc
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
   
 - title: 📜 Login Log cpanel plugin
   description: Quickly view cPanel logins and check IPs in the AbuseIPDB
@@ -373,8 +373,8 @@
   repo: stefanpejcic/lastlogin-cpanel-plugin
   preview: https://demo.cpanelplugins.com/loginlog/
   author: stefanpejcic
-  tags: blog, gridsome, tailwind, strapi, typescript
-  platforms: strapi
+  tags: blog, gridsome, tailwind, cp, typescript
+  platforms: cp
  
 - title: Softaculous
   description: One Click Install for 381 apps from your cPanel
@@ -383,7 +383,7 @@
   preview: https://www.softaculous.com/softaculous/cpanel
   author: softaculous
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
  
 - title: CloudLinux™
   description: CloudLinux™ offers a secure version of Linux that provides advanced functionality for shared hosting environments.
@@ -401,7 +401,7 @@
   preview: https://www.litespeedtech.com/products/litespeed-web-server/control-panel-plugins/cpanel
   author: litespeedtech
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
   
 - title: SitePad
   description: SitePad Website Builder helps you build professional websites using a drag and drop editor
@@ -410,7 +410,7 @@
   preview: https://sitepad.com/demo/
   author: softaculous
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
 
 - title: Remote file download
   description: Download remote files from github or any other server
@@ -419,4 +419,4 @@
   preview: https://demo.cpanelplugins.com/remote/
   author: stefanpejcic
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi 
+  platforms: cp 
