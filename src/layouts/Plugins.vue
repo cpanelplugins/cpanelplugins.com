@@ -13,8 +13,6 @@
             </span>
           </g-link>
 
-          <hr />
-
 <h3 class="menu-item" >Useful cPanel Guides</h3>
 <ul>
 		  <li style="margin-bottom: 0px;"><a class="menu-item" target="_blank" href="https://pcx3.com/cp/how-to-create-a-cpanel-plugin/">How to create a CP plugin</a></li>
