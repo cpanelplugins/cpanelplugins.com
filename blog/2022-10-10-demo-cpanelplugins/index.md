@@ -2,7 +2,7 @@
 title: demo.cpanelplugins.com 👀
 slug: demo-cpanel-plugins
 author: [stefanpejcic]
-date: 2021-10-10
+date: 2022-10-10
 excerpt: "test free cpanel plugins online on demo.cpanelplugins.com"
 ---
 
