@@ -13,7 +13,7 @@ The website creates a plugin page for each github repo added inside plugins.yaml
 </br>
 <p>To add your plugin:</p>
 <p>1. Fork <a href="https://github.com/cpanelplugins/cpanelplugins.com" target="_blank">cpanelplugins/cpanelplugins.com</a></br>
-2. Add your plugin information to the <a href="https://github.com/cpanelplugins/cpanelplugins.com/edit/master/plugins/plugins.yaml" target="_blank">plugins/plugins.yaml</a> file</br>
+2. Add your plugin information to the <a href="https://github.com/cpanelplugins/cpanelplugins.com/edit/main/plugins/plugins.yaml" target="_blank">plugins/plugins.yaml</a> file</br>
 3. Make a pull request with the following title: ADD PLUGIN</p>
 </br>
     </Section>
