@@ -8,13 +8,9 @@
     <g-link to="/plugins/">
       <span class="main-nav__label">Plugins</span>
     </g-link>
-
-    <g-link to="/developers/">
-      <span class="main-nav__label">Developers</span>
-	</g-link>
   
-	<g-link to="/exams/">
-      <span class="main-nav__label">Exams<sup> <b style="color:var(--primary-color)">NEW</b></sup></span>
+	<g-link to="/developers/">
+      <span class="main-nav__label">Developers<sup> <b style="color:var(--primary-color)">NEW</b></sup></span>
 	</g-link>
   
     <g-link to="/blog/">
