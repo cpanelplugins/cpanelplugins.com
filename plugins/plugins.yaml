@@ -122,7 +122,7 @@
   preview: https://brasilcloud.com.br/
   author: felipegabriel
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: whm
 
 - title: ArvanCloud
   description: ArvanCloud cPanel Plugin to add and config domain in CDN panel directly from cPanel.
@@ -149,7 +149,7 @@
   preview: https://www.apachebooster.com/
   author: apachebooster
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi  
+  platforms: whm  
 
 - title: Malware Scanner cpanel plugin
   description: Scan PHP files for known malicious signatures.
@@ -176,7 +176,7 @@
   preview: https://engintron.com/docs
   author: fevangelou
   tags: blog
-  platforms: strapi
+  platforms: whm
 
 - title: Fix Permissions cpanel Plugin
   description: Fix permissions for each domain under a cpanel account
@@ -248,7 +248,7 @@
   preview: https://documentation.n-able.com/spamexperts/userguide/Content/StartPages/MenuPage/GuideStart.htm
   author: nable
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: whm
 
 - title: cPBackIT Cpanel Backup Plugin
   description: Backup Cpanel reseller accounts to remote FTP.
@@ -275,7 +275,7 @@
   preview: https://www.youtube.com/watch?v=vnCFlu2KzhI
   author: troglodyne
   tags: blog, gridsome, tailwind, strapi, typescript
-  platforms: strapi
+  platforms: whm
  
 - title: Themely WordPress Installer
   description: Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes.
@@ -293,7 +293,7 @@
   preview: https://carlos-faustino.com/
   author: lucyfer622
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: whm
  
 - title: ClamAV
   description: The Virus Scanner interface scans your cPanel account for security threats. If ClamAV® Virus Scanner identifies a security threat, the system prompts you to perform an action.
@@ -320,7 +320,7 @@
   preview: https://www.litespeedtech.com/support/wiki/doku.php/litespeed_wiki:lsmcd:user_cpanel
   author: litespeedtech
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi
+  platforms: whm
   
 - title: Cwatch Web Security Solution
   description: FULLY MANAGED & COMPREHENSIVE SECURITY SOLUTION
@@ -392,7 +392,7 @@
   preview: https://docs.cpanel.net/knowledge-base/third-party/how-to-purchase-cloudlinux/
   author: litespeedtech
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: strapi   
+  platforms: whm  
   
 - title: LiteSpeed
   description: Manage your LSWS installation with ease, via cPanel and our WHM plugin
