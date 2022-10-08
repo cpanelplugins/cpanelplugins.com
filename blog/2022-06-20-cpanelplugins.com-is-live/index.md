@@ -2,7 +2,7 @@
 title: CpanelPlugins.com is live 🎉🎉🎉
 slug: cpanel-plugins-is-live
 author: [stefanpejcic]
-date: 2021-06-20
+date: 2022-06-20
 excerpt: "CpanelPlugins.com website is published!"
 ---
 
