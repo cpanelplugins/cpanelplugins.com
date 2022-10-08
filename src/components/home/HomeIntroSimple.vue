@@ -16,7 +16,7 @@
           </g-link>&nbsp;&nbsp;
           <g-link  to="/plugins/platform/whm/" class="button secondary button--large">
             <span>WHM plugins</span>
-          </g-link>
+          </g-link>&nbsp;&nbsp;
         </p>
 
         <p class="intro__info">
