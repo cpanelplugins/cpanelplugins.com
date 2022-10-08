@@ -221,7 +221,7 @@
   preview: https://www.ndchost.com/cpanel-whm/addons/watchmysql/
   author: ndchost
   tags: gridsome, plugin, windicss, portfolio
-  platforms: strapi
+  platforms: whm
 
 - title: Cpanel Linux Malware Detect
   description: Add Linux Malware Detect (LMD) support to WHM for root users.
