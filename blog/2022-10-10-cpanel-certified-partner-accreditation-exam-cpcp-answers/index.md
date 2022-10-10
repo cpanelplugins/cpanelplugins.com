@@ -848,7 +848,6 @@ Which of the following MySQL/MariaDB-related variables can be controlled via an 
 
 ---
 
-
 ## Mail Server Administration
 
 Which of the following options best describes what is indicated by the act of a mail server "relaying" its mail?
