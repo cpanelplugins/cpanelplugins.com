@@ -113,7 +113,8 @@ You've been making changes to your site's PHP-FPM configuration and to the avail
 
 ```
 [15-Aug-2022 18:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function define() in /home/pandaham/public_html/index.php:14
-```Based on the above error, what can you reasonably conclude is causing the issue?
+```
+Based on the above error, what can you reasonably conclude is causing the issue?
 
 - The `define` function is included in the `disable_functions` setting.
 
@@ -198,7 +199,9 @@ How does the /usr/local/bin/php executable know which version of PHP it should b
 
 Referencing the Apache error log entry shown below, which of the following options best describes the yellow-highlighted portion of the log entry (take note of the specifically-highlighted word)?
 
-```[Fri Sep 09 10:42:29.902022 2011] [core:error] [pid 35708:tid 4328636416] [client 72.15.99.187] File does not exist: /usr/local/apache2/htdocs/favicon.ico```
+```
+[Fri Sep 09 10:42:29.902022 2011] [core:error] [pid 35708:tid 4328636416] [client 72.15.99.187] File does not exist: /usr/local/apache2/htdocs/favicon.ico
+```
 
 - The name of the Apache module that triggered the error.
 
