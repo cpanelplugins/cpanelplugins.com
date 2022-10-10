@@ -12,7 +12,7 @@ cPanel Certified Partner Accreditation (CPCP) Exam is divided in 6 sections, eac
 - [Domain Name Server (DNS) Administration](#domain-name-server-dns-administration)
 - [Database Server Administration](#database-server-administration)
 - [Mail Server Administration](#mail-server-administration)
-- [Development for cPanel & WHM](#development-for-cpanel-whm)
+- [Development for cPanel & WHM](#development-for-cpanel--whm)
 - [Utilizing cPanel Support](#utilizing-cpanel-support)
 
 ## Web Server Administration
