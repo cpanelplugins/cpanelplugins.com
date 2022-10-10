@@ -851,11 +851,259 @@ Which of the following MySQL/MariaDB-related variables can be controlled via an 
 
 ## Mail Server Administration
 
-- 
+Which of the following options best describes what is indicated by the act of a mail server "relaying" its mail?
+
+- It is handing mail off to another mail server for delivery.
 
 ---
 
-- 
+In which WHM interface can you configure the forwarders for the root, cPanel, and nobody mail accounts?
+
+- WHM Home » Server Contacts » Edit System Mail Preferences
+
+---
+
+Which of the following options describe an actual value that can be adjusted within the WHM Home » Service Configuration » Mailserver Configuration interface?
+
+- Controlling the maximum and spare quantities of authentication daemon processes.
+
+---
+
+SCENARIO: You receive a report that all mail from a specific user on your server is neither delivered to the inbox nor bounced.
+
+When you check the WHM Home » Email » Mail Delivery Reports interface, you see a green checkmark icon next to the message. Which of the following options best describes what this may indicate? 
+
+- That the message was delivered successfully to a folder other than the inbox.
+
+---
+
+Given the following, which best describes an actual reason that the system may place a message into the Exim queue?
+
+- The load average on the server is above the delivery threshold.
+
+---
+
+Which of the following options describes one of the commonly known characteristics, though are not always indicative, of an average spam email message?
+
+- The message has a "Reply-to" address defined.
+
+---
+
+ The following items from the WHM Home » Service Configuration » Exim Configuration Manager - Basic Editor interface would allow you to exclude mail sent from specific remote IP addresses or hostnames from being subjected to recipient verification checks, sender checks, spam checks, and relay checks?
+
+- Trusted SMTP IP Addresses
+
+---
+
+You can use the Exim Configuration Manager - Basic Editor to configure Exim to deliver mail without scanning messages based on which of the following criteria?
+
+- When the message is over a certain size.
+
+---
+
+Given the following options, which accurately describe the Mail Troubleshooter interface's behavior, found in WHM?
+
+- It does not send an actual test message but simulates sending one.
+
+---
+
+When mail is delivered to "/dev/null”, which of the following statements accurately indicate what happens to the message?
+
+- The message has been permanently deleted.
+
+----
+
+Given the following options, which best describes something about an email address that can be determined by using the WHM Home » Email » Mail Troubleshooter interface, found in WHM?
+
+- It will indicate whether the destination address forwards mail to a remote server.
+
+---
+
+Which of the following tools may help you to resolve issues indicated by the time moved backwards warning?
+
+- The "Sync Time" tool in WHM »Server Configuration » Server Time
+
+---
+
+What actions can you perform in the WHM Home » Email » Mail Queue Manager interface?”
+
+- Delete a particular message permanently so that is not delivered.
+
+---
+
+Justine's boss just told her that the authentication daemon for the mail server is broken.  Which of the following options best indicates the component of the mail system that is affected by this?
+
+- The component that validates user credentials.
+
+---
+
+All mail from a specific user is neither delivered to the inbox nor bounced. When you check the WHM Home » Email » Mail Delivery Reports interface, you see a funnel-shaped icon next to the message.
+
+Which of the following options best describes what this probably indicates?
+
+- The message was likely rejected at SMTP-time due to spam-like characteristics.
+
+---
+
+If there is a long delay indicated when an email is being sent, the Mailer Daemon will send a warning message to which of the following destinations?
+
+- The email's sender.
+
+---
+
+Given the following, which option best describes an actual reason that the system may place a message into the Exim queue?
+
+- There are DNS issues preventing Exim from finding the remote mail server.
+
+---
+
+cPanel & WHM allows you to choose whether mail should be held in the queue or returned to sender when the recipient's mailbox meets which of the following criteria?
+
+- Exceeds its assigned quota.
+
+---
+
+Which of the following options accurately describes the behavior of an open relay server?
+
+- An open relay server does not require you to authenticate.
+
+---
+
+Which of the following Mail interfaces in WHM can provide you with a historical snapshot of the mail queue?
+
+- Mail Delivery Reports
+
+---
+
+Which of the following commands will remove all messages sent by the spammer@example.tld user within the last 30 minutes?
+
+- exiqgrep -f spammer@example.tld -y 1800 -i | xargs exim -Mrm
+
+---
+
+Which of the following can be discerned from the Exim log entry shown below?
+
+```
+1YO6VR-00081w-7C => test <test@cpanel.net> R=virtual_user T=virtual_userdelivery
+```
+
+- The message was delivered
+
+---
+
+What is the role of the -y flag when used with the exiqgrep utility?
+
+- Messages older than the number of seconds given.
+
+----
+
+Of the following mailbox formats, which of these are supported for use in cPanel & WHM environments?
+
+- mdbox
+
+---
+
+Which of the following can be discerned from the Exim log entry shown below?
+
+```
+1YO6bD-000871-1j => /dev/null R=virtual_user_filter T=**bypassed**
+```
+
+- The message was deleted
+
+---
+
+Of the following mailbox formats, which of these are supported for use in cPanel & WHM environments?
+
+- MailDir
+
+---
+
+Which of the following describes what is indicated by the use of the virtual_user router during a message's delivery, as seen in the exim logs?
+
+- The message was delivered to an email account created in the cPanel interface.
+
+---
+
+Which of the following values are provided in the output of the exim -bp command?
+
+- Exim ID
+
+---
+
+Which of the following best describes the role of the exim -bpc command?
+
+- Prints the number of messages in the mail queue.
+
+---
+
+Prints the number of messages in the mail queue.
+
+```
+2015-02-18 09:25:42 1Y06VR-0000Iw-7C= test@cptest.test H=localhost ([10.5.2.154]) [::1]:38793 P=esmtpa A=dovecot_login:test@cptest.test S=724 id=afc7s4294172a42cd5ce527636d7b74c.squrrel@10.6.2.152 T="test discard filter" for filters@cptest.test
+```
+
+- The Exim ID
+
+---
+
+Which of the following Actions in a cPanel email filter will result in an incoming message being rejected without sending any notifications?
+
+- Discard Message
+
+---
+
+Which of the following describes the primary role of the exim -Mvb command?
+
+- Prints the message body when given the Exim ID.
+
+---
+
+Given the following options, which one would be descriptive of behavior most likely to indicate that a spam problem is occurring?
+
+- A large number of failed messages reported
+
+---
+
+Which of the following exim commands would output the number of messages that currently exist in the Exim mail queue?
+
+- exim -bp
+
+---
+
+Which of the following describes what is indicated by the use of the localuser router during a message's delivery, as seen in the Exim logs?
+
+- The message was delivered to a default (cPanel) account.
+
+---
+
+When using Maildir, the "cur" folder contains which of the following items?
+
+- Mail that HAS been read.
+
+---
+
+A particular type of email filter is stored in the /etc/vfilters/ directory. Which of the following types of filters are these?
+
+- Account-level email filters.
+
+---- 
+
+On cPanel & WHM environments, inbound mail is stored within a subfolder structure that exists in which of the following directories?
+
+- /home/$USER/mail/
+
+---
+
+Which of the following Exim log entries would indicate that mail was deleted due to a filter?
+
+- 1YO6bD-000871-1j => /dev/null <test@cptest.test> R=virtual_user_filter T=**bypassed**
+
+---- 
+
+Given two cPanel servers exchanging email, which of the following would appear in both messages' headers, but would not appear in the Exim logs on either the sending or the receiving server?
+
+- Exim ID
 
 ---
 
