@@ -8,8 +8,8 @@ excerpt: "Answers to CPCP Exam"
 
 cPanel Certified Partner Accreditation (CPCP) Exam is divided in 6 sections, each consists of 40 questions.
 
-- Web Server Administration
-- Domain Name Server (DNS) Administration
+- [Web Server Administration](#Web-Server-Administration)
+- [Domain Name Server (DNS) Administration](#header2)
 - Database Server Administration
 - Mail Server Administration
 - Development for cPanel & WHM
