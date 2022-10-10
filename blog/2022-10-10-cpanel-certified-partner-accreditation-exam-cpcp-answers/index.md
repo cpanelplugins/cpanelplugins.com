@@ -38,7 +38,7 @@ Of the following choices, which of these accurately describes the issue that is 
 
 You've deployed the new version of your site in a custom document root. You made sure to update all the appropriate cPanel files, rebuilt the Apache configuration file, and restarted both Apache and PHP-FPM. However, sometimes when you try to load the site the old version appears. Calling upon your Linux skills, you run some commands to glean some more information about what might be going on with the site or, more broadly, Apache:
  
-<code>
+```
 # fgrep 'Upgraded: ea-apache24-1' /var/log/dnf.log.1
  2022-06-23T04:48:21+0000 DEBUG Upgraded: ea-apache24-1:2.4.54-1.el8.cloudlinux.x86_64
  # ps uU nobody
@@ -60,7 +60,7 @@ You've deployed the new version of your site in a custom document root. You made
  [Mon Jun 27 22:26:19.390095 2022] [:notice] [pid 952735] mod_ruid2/0.9.8 enabled
  [Mon Jun 27 22:26:19.392739 2022] [mpm_prefork:notice] [pid 952735] AH00163: Apache/2.4.54 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
  [Mon Jun 27 22:26:19.392758 2022] [core:notice] [pid 952735] AH00094: Command line: '/usr/sbin/httpd'
-</code>
+```
 
 Given the above information, which of the following will likely resolve the issue?
 
@@ -69,11 +69,11 @@ Given the above information, which of the following will likely resolve the issu
 ---
 
 You receive a few tickets from your clients stating that their websites are down. Upon checking the Service Status feature in WHM, you notice Apache is down and try to restart the service in WHM. The interface displays the following message:
-<code>
+```
 Apache Restart Output: Apache could not be started due to an error: The “/usr/local/cpanel/scripts/restartsrv_httpd --start” command (process 3210) reported error number 255 when it ended. Waiting for “httpd” to start ………
-</code>
+```
 To view any potential errors that are being produced from the service restart, you head to the command line and run the restart script:
-<code>
+```
 # /scripts/restartsrv_httpd
  [...]
  Log Messages
@@ -81,7 +81,7 @@ To view any potential errors that are being produced from the service restart, y
  Feb 14 06:29:33 acit-iftv-webhost restartsrv_httpd: httpd: Syntax error on line 273 of /etc/apache2/conf/httpd.conf: Syntax error on line 33 of /etc/apache2/conf.d/modsec2.conf: Syntax error on line 27 of /etc/apache2/conf.d/modsec/modsec2.cpanel.conf: Could not open configuration file /etc/apache2/conf.d/modsec_vendor_configs/OWASP3/crs-setup.conf: No such file or directory
  [Mon Feb 14 06:05:28.250460 2022] [:error] [pid 906] [client 10.0.0.5:59258] [client 10.0.0.5] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/RESPONSE-980-CORRELATION.conf"] [line "91"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 8 - SQLI=0,XSS=0,RFI=0,LFI=5,RCE=0,PHPI=0,HTTP=0,SESS=0): individual paranoia level scores: 8, 0, 0, 0"] [ver "OWASP_CRS/3.3.2"] [tag "event-correlation"] [hostname "10.0.0.100"] [uri "/403.shtml"] [unique_id "YgnxKBD_ghLEXXyhIwo-vAAAAA0"]
  [Mon Feb 14 06:05:28.249086 2022] [:error] [pid 906] [client 10.0.0.5:59258] [client 10.0.0.5] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 8)"] [severity "CRITICAL"] [ver "OWASP_CRS/3.3.2"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "10.0.0.100"] [uri "/.env"] [unique_id "YgnxKBD_ghLEXXyhIwo-vAAAAA0"]
-</code>
+```
 
 Based on the output from the script, which solution would make the most sense in the interest of getting the Apache service to start up successfully so that you can perform more diagnostics after the production environment has come back online?
 
@@ -91,7 +91,7 @@ Based on the output from the script, which solution would make the most sense in
 
 Your customer is reporting that their PHP application is still not reflecting those changes after making php.ini changes into a custom php.ini file that they've placed in their site's public_html folder. You do a quick check on their environment details:
 
-<code>
+```
 Kernel & Architecture: 2.6.32-642.13.1.el6.x86_64
  OS: CentOS release 6.8 (Final)
  cPanel Version: 11.68.0.23
@@ -103,7 +103,7 @@ Kernel & Architecture: 2.6.32-642.13.1.el6.x86_64
  / 75% utilized
  tmpfs 0% utilized
  /boot 34% utilized
-</code>
+```
 
 - The customer should use a .htaccess file instead.
 
@@ -111,9 +111,9 @@ Kernel & Architecture: 2.6.32-642.13.1.el6.x86_64
 
 You've been making changes to your site's PHP-FPM configuration and to the available PHP extensions to improve security, and all of a sudden, your site stops working. You've made so many changes between the last check of your site and now that you aren't sure which change is causing the issue. You check the site's PHP error log and find the following:
 
-<code>
+```
 [15-Aug-2022 18:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function define() in /home/pandaham/public_html/index.php:14
-</code>Based on the above error, what can you reasonably conclude is causing the issue?
+```Based on the above error, what can you reasonably conclude is causing the issue?
 
 - The `define` function is included in the `disable_functions` setting.
 
@@ -127,20 +127,20 @@ What is the Apache configuration directive specifies the folder location from wh
 
 You've found your next support ticket to work on, and the customer's site, coolsite.com, is displaying a "Forbidden" error message instead of the actual site content. Thinking about the troubleshooting process, you decide to start with Apache to rule out any issues. You're in luck! You see the following log entry when attempting to access the customer's site:
 
-<code>
+```
 [Mon Aug 15 18:08:02.788211 2022] [core:crit] [pid 1244644] (13)Permission denied: [client 162.158.62.196:0] AH00529: /home/coolsite/public_html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/home/coolsite/public_html/' is executable, referer: https://coolsite.com/
-</code>
+```
 
 There is nothing wrong with the htaccess file's permissions or ownerships, yet the site still isn't loading correctly. You decide to check the full path leading up to htaccess file to rule out any other permission or ownership problems:
 
-<code>
+```
 f: /home/coolsite/public_html/.htaccess
 dr-xr-xr-x  root      root      /
 drwx--x--x  root      root      home
 drwx--x--x  coolsite  coolsite  coolsite
 drw-rw-rw-  coolsite  coolsite  public_html
 -rw-r--r--  coolsite  coolsite  .htaccess
-</code>
+```
 
 Based on the above output, what can you reasonably conclude as the cause of the error?
 
@@ -198,7 +198,7 @@ How does the /usr/local/bin/php executable know which version of PHP it should b
 
 Referencing the Apache error log entry shown below, which of the following options best describes the yellow-highlighted portion of the log entry (take note of the specifically-highlighted word)?
 
-<code>[Fri Sep 09 10:42:29.902022 2011] [core:error] [pid 35708:tid 4328636416] [client 72.15.99.187] File does not exist: /usr/local/apache2/htdocs/favicon.ico</code>
+```[Fri Sep 09 10:42:29.902022 2011] [core:error] [pid 35708:tid 4328636416] [client 72.15.99.187] File does not exist: /usr/local/apache2/htdocs/favicon.ico```
 
 - The name of the Apache module that triggered the error.
 
