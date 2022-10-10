@@ -6,7 +6,7 @@ date: 2022-10-10
 excerpt: "Answers to CPCP Exam"
 ---
 
-cPanel Certified Partner Accreditation (CPCP) Exam is divided in 6 sections, each consists of 40 questions.
+cPanel Certified Partner Accreditation (CPCP) Exam is divided in 6 sections, first 5 consist of 40 questions each, and last section has only 10 questions.
 
 - [Web Server Administration](#web-server-administration)
 - [Domain Name Server (DNS) Administration](#domain-name-server-dns-administration)
