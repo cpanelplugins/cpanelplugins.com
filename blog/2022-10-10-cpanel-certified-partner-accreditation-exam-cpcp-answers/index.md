@@ -1108,12 +1108,311 @@ Given two cPanel servers exchanging email, which of the following would appear i
 
 ## Development for cPanel & WHM
 
-- 
+Which API allows you to manage cPanel licenses?
 
+- Manage2 API
+
+---
+
+All of the following scripts can be used in an application file except …
+
+- Perl
+
+---
+
+Webmail plugins are available to which type of accounts?
+
+- Mail user
+
+---
+
+An example of an API could be seen as which of the following situations?
+
+- Acquire a list of databases
+
+---
+
+Which language is used for a plugin installation?
+
+- Perl
+
+---
+
+What is the purpose of the template file in a Plugin?
+
+- Displays UI content
+
+---
+
+cPanel plugins are available to which type of accounts?
+
+- Root
+
+---
+
+Which is the primary API that is used to modify cPanel user data?
+
+- UAPI
+
+---
+
+Which API performs server-level tasks?
+
+- WHM API 1
+
+---
+
+While not advised, which port would you use for unsecured API calls to a specific cPanel account?
+
+- 2082
+
+---
+
+To register a hookable event which script would you run?
+
+- /usr/local/cpanel/bin/manage_hooks
+
+---
+
+All of the following categories are hookable events except …
+
+- Update
+
+---
+
+To enable debug mode you would do which of these actions?
+
+- Choose the option from the Tweak Settings interface.
+
+---
+
+All of the following types of code can be used as a hook action code are permissible except …
+
+- .exe
+
+---
+
+All of the following code types can be run as a hook except …
+
+- NodeJS
+
+---
+
+How many categories of hookable events are possible?
+
+- 12
+
+---
+
+The script that you need to use to “register” your standard hook is called …
+
+- manage_hooks
+
+---
+
+Hook action code must be treated as an encoded data structure of which of the following types?
+
+- YAML
+
+---
+
+All of the following stages can be hooked during a backup except …
+
+- pre ???
+
+---
+
+All hook action scripts must have the correct file permissions to work properly, which permissions do they need to have?
+
+- 755
+
+---
+
+The location of the branding files for root is found in which of these locations?
+
+- /var/cpanel/customizations/brand
+
+---
+
+Which term is defined as: "Applies an overlay on the skeletal framework for all of the interfaces"?
+
+- theme
+
+---
+
+When using whmapi1 on the command line and you want to perform a key/value call to the API you can specify all the following output formats except ...
+
+- yaml ???
+
+---
+
+Which of the following interfaces are you able to make branding changes to match your companies logo and brand?
+
+- cPanel & Webmail & WHM
+
+---
+
+The EasyApache profiles are found in which location?
+
+- /etc/cpanel/ea4
+
+---
+
+When creating a custom profile file, which file type is used to store the information?
+
+- YAML ???
+
+---
+
+What does the alias /scripts/ point to in the file system?
+
+- /usr/local/cpanel/bin/
+
+---
+
+Which term is defined as: "Adding custom content to header or footer of the UI"?
+
+- includes
+
+---
+
+When a system boots, it runs a script called "onboot_handler", where are the scripts located that are run by this handler?
+
+- /var/cpanel/on_boot/
+
+---
+
+The location of the branding files for resellers is found in which of these locations?
+
+- /home/reseller/var/cpanel/reseller/brand
+
+---
+
+When setting "Disk Space Quota" during package creation, in which unit format must the quota be specified?
+
+- MB
+
+---
+As an end user, which is the proper way to restore your full cPanel backup?
+
+- Contact your hosting provider
+
+---
+
+Let's assume a node.js developer has an account called "user" on your WHM server and they followed the cPanel guide to creating a test node.js application. Where would you find the node.js test script?
+
+- /home/user/nodejsapp/app.js
+
+---
+
+All of the following external services are available for remote backup destinations except ...
+
+- iCloud
+
+---
+
+A simple definition of a "package" on a WHM server would be as follows:
+
+- a set of resource limits and list of usable features
+
+---
+
+During backups you need to specify staging directories, which of the following can not be used as a staging directory on your server?
+
+- /etc
+
+---
+
+Which of the following can be customized in a package?
+
+- Feature List
+
+---
+
+Assuming a cPanel account is using a Feature List with the "SSH Access & Terminal" feature enabled, which privilege will they need to actually access the Terminal feature?
+
+- Shell Access
+
+---
+
+Which of the following git commands would you use to update the master branch?
+
+- checkout
+
+---
+
+The main purpose of the application Git is?
+
+- code version control
+
+---
+
+70
 ---
 
 ## Utilizing cPanel Support
 
-- 
+
+Which of the following is one of the three types of articles you'll find within each of the parent categories of the knowledgebase?
+
+- Guidelines and Recommendations
 
 ---
+
+At which of the following websites can I find both knowledgebase articles written by Support analysts, as well as a means of creating cPanel support tickets as needed?
+
+- support.cpanel.net
+
+---
+
+A customer is looking for articles to help walk them through the process of restricting the amount of MySQL connections per-user on their server. Which of the following article type would be most likely to assist them?
+
+- How-Tos
+
+---
+
+There are two key things we recommend ensuring are present within every ticket subject, when at all possible. The first is that the subject describes the problem in short, concise words. What is the second?
+
+- That the subject includes where the problem occurs
+
+---
+
+As a cPanel Support customer, we recommend that you start your visit at support.cpanel.net by performing which of the following steps?
+
+- Search for an appropriate article, then create a ticket if none exists
+
+---
+
+What label is shown on the "big orange button" that directs you towards a list of categories for browsing the knowledge base articles?
+
+- Information Center
+
+---
+
+A customer is attempting to use the whmapi1 command-line tool to test some API calls on their server, before using them in their application. However, upon attempting to use this command with any API, they are receiving an error message informing them that no license exists.
+
+Taking this scenario into account, which of the following subject titles would be most effective when creating a support ticket?
+
+- whmapi1 always returns an error about "no license"
+
+---
+
+A customer is encountering an error when attempting to create an email account through the cPanel account interface on their server. Of the following options, which would make for the most effective ticket subject line?
+
+- perl error in interface when adding email account
+
+---
+
+Using the following error log message as a reference point, given the following options, which would be the most effective search query for finding an article related to this specific problem?
+
+```
+info [cpwrapd] ERROR in Mysql query :(XID vwqrz2) The system received an error from the “MySQL” database “mysql”: 1819 (Your password does not satisfy the current policy requirements)
+```
+
+- Your password does not satisfy the current policy requirements
+
+---
+
+In our five tips for effective article searching, we recommend starting with which of the following guidelines?
+
+- Start with a copy/paste of all relevant text.
