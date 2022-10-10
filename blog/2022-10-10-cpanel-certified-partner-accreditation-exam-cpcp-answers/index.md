@@ -859,7 +859,7 @@ Which of the following MySQL/MariaDB-related variables can be controlled via an 
 
 ---
 
-##Development for cPanel & WHM
+## Development for cPanel & WHM
 
 - 
 
