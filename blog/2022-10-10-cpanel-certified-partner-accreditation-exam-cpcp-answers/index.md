@@ -1,0 +1,872 @@
+---
+title: cPanel Certified Partner Accreditation Exam (CPCP) Answers 2022
+slug: cpanel-certified-partner-accreditation-exam-cpcp-answers
+author: [stefanpejcic]
+date: 2022-10-10
+excerpt: "Answers to CPCP Exam"
+---
+
+cPanel Certified Partner Accreditation (CPCP) Exam is divided in 6 sections, each consists of 40 questions.
+
+- Web Server Administration
+- Domain Name Server (DNS) Administration
+- Database Server Administration
+- Mail Server Administration
+- Development for cPanel & WHM
+- Utilizing cPanel Support
+
+## Web Server Administration
+
+You deploy an updated website version, but it only displays a blank white page in Firefox and an HTTP Error in Chrome. You find an error in the site's PHP error log regarding a call to an undefined function named mysqli. What is the ideal next step in troubleshooting the situation?
+
+- Confirm that the mysqli PHP extension is installed and if not, install it.
+
+---
+
+A customer's website uses PHP 8.0 with PHP-FPM as the PHP handler. They've created a php.ini file in their website's document root, but their changes are not being reflected. Despite performing the following troubleshooting steps, the issue persists:
+
+Restarted the ea-php80 PHP-FPM service.
+Restarted Apache.
+Confirmed correct ownerships and permissions on the php.ini file.
+Confirmed that the website's document root is, in fact, the directory they placed the php.ini file.
+
+Of the following choices, which of these accurately describes the issue that is occurring here?
+
+- An .htaccess file stored in public_html should be used instead, containing only the values that need to be altered from the global defaults.
+ 
+---
+
+You've deployed the new version of your site in a custom document root. You made sure to update all the appropriate cPanel files, rebuilt the Apache configuration file, and restarted both Apache and PHP-FPM. However, sometimes when you try to load the site the old version appears. Calling upon your Linux skills, you run some commands to glean some more information about what might be going on with the site or, more broadly, Apache:
+ 
+<code>
+# fgrep 'Upgraded: ea-apache24-1' /var/log/dnf.log.1
+ 2022-06-23T04:48:21+0000 DEBUG Upgraded: ea-apache24-1:2.4.54-1.el8.cloudlinux.x86_64
+ # ps uU nobody
+ USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ nobody   1157144  0.0  0.2 215340  9112 ?        S    Jun27   0:00 /usr/sbin/httpd -k start
+ nobody   1157145  0.0  0.2 215340  9112 ?        S    Jun27   0:00 /usr/sbin/httpd -k start
+ nobody   1157146  0.0  0.2 215340  9112 ?        S    Jun27   0:00 /usr/sbin/httpd -k start
+ nobody   1157147  0.0  0.2 215340  9112 ?        S    Jun27   0:00 /usr/sbin/httpd -k start
+ nobody   1157148  0.0  0.2 215340  9112 ?        S    Jun27   0:00 /usr/sbin/httpd -k start
+ nobody   1163083  0.0  0.2 215340  9188 ?        S    01\:35   0:00 /usr/sbin/httpd -k start
+ # tail /var/log/apache2/error_log
+ [Mon Jun 27 11:08:11.883571 2022] [proxy_fcgi:error] [pid 1135417] [client 10.3.4.18:60147] AH01071: Got error 'Primary script unknown', referer: https://adam.university.cpanel.net/cpanelid.html
+ [Mon Jun 27 11:09:41.352206 2022] [proxy_fcgi:error] [pid 1135238] [client 10.3.4.18:60555] AH01071: Got error 'Primary script unknown'
+ [Mon Jun 27 14:08:13.091321 2022] [proxy_fcgi:error] [pid 1135238] [client 10.0.48.48:41834] AH01071: Got error 'Primary script unknown'
+ [Mon Jun 27 14:08:13.091888 2022] [proxy_fcgi:error] [pid 1138150] [client 10.0.48.48:41838] AH01071: Got error 'Primary script unknown'
+ [Mon Jun 27 14:08:13.121549 2022] [proxy_fcgi:error] [pid 952740] [client 10.0.48.48:41846] AH01071: Got error 'Primary script unknown'
+ [Mon Jun 27 14:08:13.126039 2022] [proxy_fcgi:error] [pid 952739] [client 10.0.48.48:41852] AH01071: Got error 'Primary script unknown'
+ [Mon Jun 27 22:26:19.176658 2022] [mpm_prefork:notice] [pid 952735] AH00171: Graceful restart requested, doing restart
+ [Mon Jun 27 22:26:19.390095 2022] [:notice] [pid 952735] mod_ruid2/0.9.8 enabled
+ [Mon Jun 27 22:26:19.392739 2022] [mpm_prefork:notice] [pid 952735] AH00163: Apache/2.4.54 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+ [Mon Jun 27 22:26:19.392758 2022] [core:notice] [pid 952735] AH00094: Command line: '/usr/sbin/httpd'
+</code>
+
+Given the above information, which of the following will likely resolve the issue?
+
+- Restart Apache with the `/scripts/restartsrv_apache --hard` to force restart all Apache children.
+
+---
+
+You receive a few tickets from your clients stating that their websites are down. Upon checking the Service Status feature in WHM, you notice Apache is down and try to restart the service in WHM. The interface displays the following message:
+<code>
+Apache Restart Output: Apache could not be started due to an error: The “/usr/local/cpanel/scripts/restartsrv_httpd --start” command (process 3210) reported error number 255 when it ended. Waiting for “httpd” to start ………
+</code>
+To view any potential errors that are being produced from the service restart, you head to the command line and run the restart script:
+<code>
+# /scripts/restartsrv_httpd
+ [...]
+ Log Messages
+ Feb 14 06:29:33 acit-iftv-webhost systemd: Failed to start Apache web server managed by cPanel EasyApache.
+ Feb 14 06:29:33 acit-iftv-webhost restartsrv_httpd: httpd: Syntax error on line 273 of /etc/apache2/conf/httpd.conf: Syntax error on line 33 of /etc/apache2/conf.d/modsec2.conf: Syntax error on line 27 of /etc/apache2/conf.d/modsec/modsec2.cpanel.conf: Could not open configuration file /etc/apache2/conf.d/modsec_vendor_configs/OWASP3/crs-setup.conf: No such file or directory
+ [Mon Feb 14 06:05:28.250460 2022] [:error] [pid 906] [client 10.0.0.5:59258] [client 10.0.0.5] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/RESPONSE-980-CORRELATION.conf"] [line "91"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 8 - SQLI=0,XSS=0,RFI=0,LFI=5,RCE=0,PHPI=0,HTTP=0,SESS=0): individual paranoia level scores: 8, 0, 0, 0"] [ver "OWASP_CRS/3.3.2"] [tag "event-correlation"] [hostname "10.0.0.100"] [uri "/403.shtml"] [unique_id "YgnxKBD_ghLEXXyhIwo-vAAAAA0"]
+ [Mon Feb 14 06:05:28.249086 2022] [:error] [pid 906] [client 10.0.0.5:59258] [client 10.0.0.5] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 8)"] [severity "CRITICAL"] [ver "OWASP_CRS/3.3.2"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "10.0.0.100"] [uri "/.env"] [unique_id "YgnxKBD_ghLEXXyhIwo-vAAAAA0"]
+</code>
+
+Based on the output from the script, which solution would make the most sense in the interest of getting the Apache service to start up successfully so that you can perform more diagnostics after the production environment has come back online?
+
+- Comment out lines in `../conf.d/modsec/modsec2.cpanel.conf` that reference the non-existent file mentioned in the syntax error.
+
+---
+
+Your customer is reporting that their PHP application is still not reflecting those changes after making php.ini changes into a custom php.ini file that they've placed in their site's public_html folder. You do a quick check on their environment details:
+
+<code>
+Kernel & Architecture: 2.6.32-642.13.1.el6.x86_64
+ OS: CentOS release 6.8 (Final)
+ cPanel Version: 11.68.0.23
+ Apache: 2.4.16, listening on ports 80 & 443
+ PHP: PHP 5.6.30 using DSO & mod_ruid2
+ Uptime: 09:27:06 up 2 days
+ Load Average: 0.07, 0.07, 0.02
+ Disk Usage:
+ / 75% utilized
+ tmpfs 0% utilized
+ /boot 34% utilized
+</code>
+
+- The customer should use a .htaccess file instead.
+
+---
+
+You've been making changes to your site's PHP-FPM configuration and to the available PHP extensions to improve security, and all of a sudden, your site stops working. You've made so many changes between the last check of your site and now that you aren't sure which change is causing the issue. You check the site's PHP error log and find the following:
+
+<code>
+[15-Aug-2022 18:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function define() in /home/pandaham/public_html/index.php:14
+</code>Based on the above error, what can you reasonably conclude is causing the issue?
+
+- The `define` function is included in the `disable_functions` setting.
+
+---
+
+What is the Apache configuration directive specifies the folder location from which a VirtualHost's static files are served?
+
+- <Directory
+
+---
+
+You've found your next support ticket to work on, and the customer's site, coolsite.com, is displaying a "Forbidden" error message instead of the actual site content. Thinking about the troubleshooting process, you decide to start with Apache to rule out any issues. You're in luck! You see the following log entry when attempting to access the customer's site:
+
+<code>
+[Mon Aug 15 18:08:02.788211 2022] [core:crit] [pid 1244644] (13)Permission denied: [client 162.158.62.196:0] AH00529: /home/coolsite/public_html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/home/coolsite/public_html/' is executable, referer: https://coolsite.com/
+</code>
+
+There is nothing wrong with the htaccess file's permissions or ownerships, yet the site still isn't loading correctly. You decide to check the full path leading up to htaccess file to rule out any other permission or ownership problems:
+
+<code>
+f: /home/coolsite/public_html/.htaccess
+dr-xr-xr-x  root      root      /
+drwx--x--x  root      root      home
+drwx--x--x  coolsite  coolsite  coolsite
+drw-rw-rw-  coolsite  coolsite  public_html
+-rw-r--r--  coolsite  coolsite  .htaccess
+</code>
+
+Based on the above output, what can you reasonably conclude as the cause of the error?
+
+- The documentroot's group needs to be changed to `nobody`.
+
+---
+
+When operating within a cPanel & WHM environment, which of these commands would display all available EasyApache 4 packages from within the server's command line?
+
+- yum list "ea-*"
+
+---
+
+In a cPanel & WHM environment, within which of the following paths would you be able to find the Apache modules stored?
+
+- /etc/apache2/modules/
+
+---
+
+In a cPanel & WHM environment, which of the following options describes a method you can use to change Apache's MPM from the command-line?
+
+- The "yum shell" command should be used to perform a batch transaction so that your web content does not produce errors.
+
+---
+
+In a cPanel & WHM environment, if you select PHP 5.6 as the default PHP version, then from which of the following paths will the php.ini file be loaded?
+
+- /opt/cpanel/ea-php56/root/etc/php.ini
+
+---
+
+Which of the following terms can be described as a special text string syntax used for describing a search pattern?
+
+- Regular Expression
+
+---
+
+When administering a server running cPanel & WHM, which of the following commands contains the appropriate paths and arguments needed to install an EasyApache 4 profile from the command-line?
+
+- /usr/local/bin/ea_install_profile --install /etc/cpanel/ea4/profiles/cpanel/default.json
+
+---
+
+Which of the following command-line utilities can best be described as a tool that allows you to concurrently install multiple versions of the same component (software collections) onto your system, and is often used with EasyApache 4/MultiPHP operations?
+
+- scl
+
+---
+
+How does the /usr/local/bin/php executable know which version of PHP it should be using?
+
+- The system's default PHP version is always used.
+
+---
+
+Referencing the Apache error log entry shown below, which of the following options best describes the yellow-highlighted portion of the log entry (take note of the specifically-highlighted word)?
+
+<code>[Fri Sep 09 10:42:29.902022 2011] [core:error] [pid 35708:tid 4328636416] [client 72.15.99.187] File does not exist: /usr/local/apache2/htdocs/favicon.ico</code>
+
+- The name of the Apache module that triggered the error.
+
+---
+
+In a cPanel & WHM environment, which of the following paths contain each installed version's PHP configuration files (php.ini), used by MultiPHP? ("##" representing the PHP version, in the options below)
+
+- /opt/cpanel/ea-php##
+
+---
+
+Which of the following yum commands would remove, or uninstall, the mod_speling RPM?
+
+- yum remove ea-apache24-mod_speling
+
+---
+
+Which of the following options indicates the HTTP status code that results in the status message shown below?
+
+OK. The request was successful.
+
+- 200
+
+---
+
+When an EasyApache 4 profile is uploaded through the WHM interface, where within the file system is it stored?
+
+- /etc/cpanel/ea4/profiles/custom
+
+---
+
+Which of the following components can be described as a specific SAPI that provides functionality in a module that behaves as if it had been compiled into Apache itself, handling appropriate requests without producing new, non-Apache processes?
+
+- DSO
+
+---
+
+Which of the following options indicates the HTTP status code that produces an error like the one shown below?
+
+Forbidden. Access was denied to at least one relevant file.
+
+- 403
+
+---
+
+Which of the following options describes the best way for you to enable the experimental repository for EasyApache 4, when operating within a cPanel & WHM environment?
+
+- Perform the following command from the command-line, as root or equivalent: yum install ea4-experimental
+
+---
+
+If a user wants to utilize the system default version of PHP, which of the following selections would they enable for their account?
+
+- inherit
+
+---
+
+In modern installations of cPanel & WHM, EasyApache 4 will allow you to install which of the following versions of Apache?
+
+- Apache 2.4
+
+---
+
+Which of the following options accurately describe an action that one can perform from within WHM's EasyApache 4 interface?”
+
+- Change the php.ini files that are utilized for each installed PHP version.
+
+---
+
+Which of the following options best describes the method you would use to install the PHP-FPM software, within a cPanel & WHM environment?
+
+- PHP-FPM appears under the PHP Extensions stage of the EasyApache 4 profile customization walkthrough.
+
+---
+
+In modern installations of cPanel & WHM, when selecting DSO from the EasyApache 4 interface without mod_ruid2 or mpm_itk, what recommendation will be displayed to you automatically, directly from within the EasyApache 4 interface?
+
+- PHP DSO runs as the nobody user by default. In a shared hosting environment, this is a security issue.
+
+---
+
+Which of the following options best describes the procedure needed to enable the BlueHost SymLink Protection Patch?
+
+- Toggle the corresponding option found in WHM's Apache Configuration's Global Configuration interface.
+
+
+---
+
+In modern installations of cPanel & WHM, which of the following PHP configuration values are set automatically during the Initial Setup Assistant steps?
+
+- memory_limit
+
+---
+
+Which of the following accurately indicates the user that processes created for the DSO handler are owned by?
+
+- nobody user
+
+---
+
+Of the following options, which of these handlers operate in a non-persistent state, requiring the creation of new PHP processes each time something is executed?
+
+- suPHP
+
+---
+
+In modern installations of cPanel & WHM, how is the PHP version determined for newly created accounts, when System PHP-FPM status is set to ON?
+
+- It is set to the same value as the system default.
+
+---
+
+Which of the following options is NOT a real Multi-Processing Module (MPM) available for installation within WHM's EasyApache 4 interface?
+
+- Postfork
+
+---
+
+Which of the following options describes an action that can be performed from within WHM's MultiPHP Manager interface?
+
+- You can turn on PHP-FPM, per-virtual host, from this interface.
+
+---
+
+Which of the following options accurately describes an action one performs in WHM's EasyApache 4 interface?”
+
+- Install new PHP extensions for use in your active Apache/PHP environment.
+
+---
+
+Given the following options, select the components or component combinations that would provide standard per-user process ownership for handling PHP content.
+
+- suPHP (mod_suphp) OR Ruid2 (mod_ruid2) OR PHP-FPM
+
+---
+
+Which of the following options describes the appropriate method needed to enable PHP-FPM from within the WHM interface?
+
+- PHP-FPM is enabled via WHM's MultiPHP Manager interface.
+
+---
+
+## Domain Name Server (DNS) Administration
+
+Which of the following statements best describes the term resolver?
+
+- A nameserver that can resolve non-local domains.
+
+
+---
+
+Which of the following best describes one of the primary, intended purposes of a DNSOnly server?
+
+- Providing a means of establishing DNS redundancy in a cluster configuration.
+
+---
+
+By default, cPanel creates SPF records in which of the following modes?
+
+- Development mode (non-production)
+
+---
+
+Which of the following options most accurately describes the interface or interfaces that you would utilize to create reverse DNS zones from within WHM?
+
+- This cannot be done in WHM.
+
+---
+
+Which of the following most accurately describes what happens when a zone contains two CNAME records with the same name?
+
+- The zone is considered invalid.
+
+
+---
+
+After installing cPanel & WHM in a new environment, what is the initial, default state of DNS clustering?
+
+- DNS clustering is initially disabled and requires validation of a secondary server before allowing you to enable it.
+
+---
+
+The following options found in the Exim Configuration Manager - Basic Editor interface in WHM enables the checking of DNS resolution to see if the sender's domain exists?
+
+- Sender Verification Callouts
+
+---
+
+Which of the following options indicates what the abbreviation TTL stands for, in the context of DNS?
+
+- Time To Live; indicating how long a resource record should be cached.
+
+---
+
+In which of the following WHM interfaces would you enter the default nameservers for accounts that root creates?
+
+- WHM Home >> Server Configuration >> Basic WebHost Manager Setup
+
+---
+
+Which of the following types of DNS cluster synchronization found in WHM can be best described as the copying of one updated zone file to the current server, based on the value you provide as the domain you wish to synchronize?
+
+- Synchronize one zone to this server only.
+
+
+---
+
+Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client.
+
+Which of the following interfaces should he start with, in order to accomplish this?
+
+- cPanel » Domains » Subdomains
+
+---
+
+Which of the following described situations would utilize DNS resolution as a key component of its handling?
+
+- To determine where to send mail for a domain.
+
+---
+
+Yudith runs a small web-hosting company.  She has added and removed several zones manually but has accidentally deleted a zone belonging to a cPanel account. Fortunately, this zone did not contain any custom records.
+
+Given the situation, which of the following WHM interfaces should she utilize to re-create the zone?
+
+- WHM » DNS Functions » Add a DNS Zone.
+
+---
+
+Which of the following DNS clustering synchronization types, found in the WHM interface, can be best described as the copying of all updated versions of local zone files to all servers in the cluster?
+
+- Synchronize all zones to all servers.
+
+---
+
+Which of the following statements most accurately describes the term clustering, in the context of a server hosting environment?
+
+- Two or more servers that all serve the same purpose configured in a distributed, connected environment.
+
+---
+
+Given the following options, which indicates the ideal source from which you should obtain your server's resolver IP addresses?
+
+- Your hosting provider or data center.
+
+---
+
+Which of the following types of DNS cluster synchronization found in the WHM interface can be accurately described as the copying of all updated versions of local zone files from other servers in the cluster to this server?
+
+- Synchronize all zones to this server only.
+
+---
+
+When you use the supported 1:1 NAT setup in WHM, the List Accounts interface in WHM will display which of the following values in each accounts' listed IP address column?
+
+- The public IP address.
+
+---
+Which of the following options best describes the term recursive, in the context of DNS?
+
+- A recursive nameserver can resolve non-local domains.
+
+---
+
+Which of the following most accurately describes what happens when a domain with two NS records in its zone is queried?
+
+- Both records are returned.
+
+---
+
+In a BIND/named configuration file, which of these logging categories encompasses all categories that have not already been explicitly configured to use another channel?
+
+- default
+
+---
+
+By default, which of the following sections appear first in the named.conf file?
+
+
+- key
+
+---
+
+What does the acronym TLD represent, as in for a "TLD nameserver"?
+
+- Top-level Domain
+
+---
+
+In a cPanel & WHM environment, DNS zone templates can be used to ensure which of the following?
+
+- To standardize a set of zone records and structure that will be used for a large number of DNS zones.
+
+---
+
+Which section of the named.conf file controls BIND/named's listening port?
+
+- options
+
+---
+
+Which of the following utilities included with BIND/named can be used to troubleshoot malformed zone files?
+
+- named-checkzone
+
+---
+
+To retrieve the IPv6 record of a domain, you would query for which of the following records in a domain?
+
+- AAAA
+
+---
+
+After you update a zone's serial number (or any other record), which of the following commands can you execute to ensure that your local nameserver has been updated to use the new zone data?
+
+- rndc reload
+
+---
+
+Which important configuration file would allow you to change important server options, such as enabling debug logging for BIND/named?
+
+- /etc/named.conf
+
+---
+
+In a cPanel & WHM server, which of the following would allow you to select another DNS server application from the command line?
+
+- setupnameserver
+
+---
+
+On a cPanel & WHM environment, the system stores the private/public keys for DKIM in which of the following paths?
+
+- /var/cpanel/domain_keys
+
+---
+
+To force the local system to resolve a domain to a specific IP address, which of the following files would you modify to accomplish this?
+
+- /etc/hosts
+
+---
+
+When you see a "rndc reload: connection refused" error, which of the following commands should you run first?
+
+- /scripts/fixrndc
+
+---
+
+Which of the following nameserver applications does not load all of its DNS zones upon startup?
+
+- MyDNS
+
+---
+
+Which of the following utilities can be used to administer a BIND/named server remotely?
+
+- rndc
+
+---
+
+Which of the following is the first nameserver that the resolver queries to determine the address of the TLD nameserver?
+
+- The root nameserver.
+
+---
+
+Which of the following DNS-related command-line utilities would provide you with similar results to those given by the dig utility, and is used for essentially the same purposes?
+
+- nslookup
+
+---
+
+On a server that does not need to facilitate zone transfers, which of the following configuration variables found in the named.conf file should be set to none to disable them?
+
+- allow-transfer
+
+
+---
+
+A default cPanel & WHM environment configures a custom logging channel, default_log, to log to which of the following paths?
+
+- /var/log/named/named.log
+
+---
+
+By default, which of these logging categories are routed into the default_log channel, in a BIND/named DNS server configuration?
+
+- general
+
+---
+
+## Database Server Administration
+
+Which of the following MySQL/MariaDB-related terms describe a data structure that improves operations' speed in a table accurately?
+
+- Index
+
+---
+
+Which of the following actions can you perform directly from within the WHM interface, without using phpMyAdmin?
+
+
+- Change a database user's password.
+
+
+---
+
+What language is used to add, remove, and view data in a MySQL/MariaDB database?
+
+- SQL
+
+---
+
+Which of the following is a term that indicates a trait of the object described by the table, or can be otherwise referenced as a table column?
+
+- Field
+
+---
+
+Which of the following best describes the MySQL root password's role in a cPanel & WHM environment?
+
+- A password that is primarily handled via automated means by cPanel & WHM back-end services and can be reset as needed.
+
+
+---
+
+Which of the following details about the remote server would you need to know, if you wanted to set up a new remote MySQL profile in WHM?
+
+
+- Remote MySQL listening port
+
+---
+
+The WHM Home >> SQL Services >> Additional Access Hosts interface creates server-level grants that are similar to the grants that can be created in which of the following cPanel account-level Interfaces? 
+
+- cPanel Home >> Databases >> Remote MySQL
+
+---
+
+Given the following options, which accurately describe a feature specific to the MyISAM storage engine?
+
+- MyISAM has repair capabilities that allow you to perform the REPAIR query, either directly or from the WHM interface, on tables that may have corrupted data or indexes.
+
+---
+
+Which of the following is one of the most common causes of MySQL upgrade failures? 
+
+- Aborting the upgrade, intentionally or otherwise, part-way through the procedure.
+
+---
+
+Ananya has a website that writes data into a MySQL database. She was mail-bombed, and as a result, has gone over the quota that was set for her account by the WHM server administrator. Which of the following best describes what happens to her website now?
+
+- It continues operating normally and no production impact is seen.
+
+---
+
+When using a cPanel & WHM environment, remote MySQL capabilities should be set up via the MySQL Profiles interface in WHM at which of the following stages of a server's operations?
+
+- After installation, but before beginning to create production accounts on the server.
+
+
+---
+
+The WHM Home >> SQL Services >> Manage Databases interface allows you to do which of the following operations?
+
+- Automate renaming of a MySQL/MariaDB database.
+
+---
+
+Which of the following terms can be described as the way that permissions are handled inside a MySQL or MariaDB database?
+
+
+- Grants
+
+---
+
+In modern versions of cPanel & WHM, what benefits can database prefixing, enabled from the SQL tab of the Tweak Settings interface in WHM, provide?
+
+
+- Primarily cosmetic; helps server administrators identify database ownership, as well as providing auto-grouping in the phpMyAdmin interface.
+
+---
+Which of the following database-related terms defines marking a table or row so that only one process can access it a time?”
+
+- Locking
+
+---
+
+Which of the following definitions best describes InnoDB's data dictionary component?
+
+- A part of the InnoDB storage engine that uses metadata to map structural information to the file it’s stored in.
+
+---
+
+Which of the following types of tables can you repair using the Repair a MySQL Database interface, found in WHM?
+
+- MyISAM
+
+---
+
+Which of the following options describes an actual benefit of utilizing remote MySQL capabilities using the MySQL Profiles feature in WHM?
+
+- Remote MySQL servers can reduce load on the WHM Server.
+
+---
+
+Using the Manage MySQL Profiles interface in WHM, what is the recommended maximum number of cPanel & WHM servers should be connected to each configured remote MySQL server?
+
+- 1
+
+---
+
+By default, what kind of remote MySQL access is allowed, given the correct user and password?
+
+- No remote access is provided by default.
+
+---
+
+From the command line in a cPanel & WHM environment, how could you determine whether a server is utilizing a remote MySQL server?
+
+- Check /root/.my.cnf for a “host” line.
+
+---
+
+In a cPanel & WHM environment, which of the following tools can best be described as the executable that creates grants_[cpuser].yaml files from existing MySQL grants, as found within the existing mysql.user database?
+
+- restoregrants
+
+---
+
+When should you make backups of your configuration files (or the my.cnf file in particular)?
+
+- When changes are made to the configuration.
+
+---
+
+Which of the following SQL queries would be the most effective in identifying MySQL users that still have pre-4.1 passwords in use?
+
+- SELECT DISTINCT user FROM user WHERE length(password) < 41;
+
+
+---
+
+In a cPanel & WHM environment, which of the following tools can be best described as the executable that reads the grants_cpuser.yaml file, then adds the corresponding grants to MySQL.
+
+
+- restoregrants
+
+---
+
+Which of the following statements is not a legitimate SQL statement?
+
+- COPY
+
+---
+
+The following text shows an example of which type of syntax, also visible in some mapping-related files stored by cPanel within the file system?
+
+- JSON
+
+---
+
+In a cPanel & WHM environment, which of the following describes the purpose of the files that exist within the /var/cpanel/databases directory?
+
+- To store mapping information to help store data regarding association between cPanel accounts and databases.
+
+---
+
+Which of the following describes one of the important steps discussed when describing how a full MySQL data directory can be manually restored from a cPanel-created backup?
+
+
+- Ensure ownership of the restored files is mysql:mysql, after being copied into the data directory.
+
+---
+
+In a cPanel & WHM environment, the /var/cpanel/databases directory contains which of the following?
+
+- The files created and used by cPanel for database mapping.
+
+---
+
+You must stop the MySQL service in order to perform which of the following actions? 
+
+- Relocate or rename the data directory file in the MySQL data directory.
+
+---
+
+Within which of the following locations could you check if you wanted to confirm whether a cPanel & WHM server has "old (pre-4.1) passwords" enabled?
+
+- Tweak Settings interface in WHM.
+
+---
+
+When looking at the following excerpt from the beginning of a SHOW GRANTS result, what does the term USAGE ON indicate on the *.* value that follows?
+
+GRANT USAGE ON *.*
+
+- That no privileges are given.
+
+---
+
+Which of the following file extensions are associated specifically with InnoDB tables?
+
+
+- ibd
+
+---
+
+Which of the following MySQL/MariaDB-related variables can be controlled via an option found within WHM's Tweak Setting interface?
+
+- max_allowed_packet
+
+---
+
+How can you prevent cPanel & WHM from performing automated updates on the MySQL® or MariaDB server software?
+
+- By using the update_local_rpm_version script.
+
+---
+
+Error messages in your database error logs that indicate invalid, missing or unexpected system tables can frequently be the result of which of the following issues?
+
+- An incomplete (partial) upgrade.
+
+---
+
+If the MySQL processes are stopped using the kill -9 command, what can you expect to happen?
+
+- An increased security risk of compromised authentication.
+
+---
+
+Which of the following can be described as a calculated numerical value resulting from a pre-determined algorithm used to represent a set of data?
+
+- Bitwise operator
+
+---
+
+Which of the following MySQL/MariaDB-related variables can be controlled via an option found within WHM's Tweak Setting interface?
+
+- open_files_limit
+
+---
+
+
+## Mail Server Administration
+
+- 
+
+---
+
+
+
+- 
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
