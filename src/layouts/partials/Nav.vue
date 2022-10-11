@@ -20,6 +20,33 @@
 	<g-link to="/about/">
       <span class="main-nav__label">About</span>
     </g-link>
+    
+    
+    
+    <div class="has-dropdown">
+          <a
+            aria-label="GitHub"
+            href="/docs"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Gridsome @ GitHub"
+          ><span
+             style="margin-left:5px;"
+            >Support</span>
+          </a>
+          <div class="dropdown">
+            <a href="/docs" rel="noopener noreferrer" target="_blank">
+              Documentation
+            </a>
+            <a href="//github.com/gridsome/gridsome/issues" rel="noopener noreferrer" target="_blank">
+              FAQ
+            </a>
+             <a href="//github.com/gridsome/gridsome/projects/2" rel="noopener noreferrer" target="_blank">
+              Open Ticket
+            </a>
+          </div>
+    
+    
   </nav>
 </template>
 
