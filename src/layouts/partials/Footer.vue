@@ -1,6 +1,6 @@
 <template>
   <footer class="text-center">
-  © 2022 CpanelPlugins.com All rights reserved.</br>
+  © 2022 <a href="https://plugins.club" target="_blank" rel="noopener">CpanelPlugins.com</a> All rights reserved.</br>
 
 </br></br>
     cPanel, WebHost Manager and WHM are registered trademarks of <g-link to="https://cpanel.net/">cPanel, Inc.</g-link></br>
