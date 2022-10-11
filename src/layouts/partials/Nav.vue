@@ -21,7 +21,7 @@
       <span class="main-nav__label">About</span>
     </g-link>
     
-    <--div class="has-dropdown">
+    <!--div class="has-dropdown">
           <a
             aria-label="GitHub"
             href="/plugins/"
