@@ -10,7 +10,7 @@
     </g-link>
   
 	<g-link to="/developers/">
-      <span class="main-nav__label">Developers<sup> <b style="color:var(--primary-color)">NEW</b></sup></span>
+      <span class="main-nav__label">Developers<sup> <b style="color:var(--primary-color)"> NEW</b></sup></span>
 	</g-link>
   
     <g-link to="/blog/">
