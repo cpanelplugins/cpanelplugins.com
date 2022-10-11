@@ -5,6 +5,22 @@
       <span class="main-nav__label">Home</span>
     </g-link>
     
+    <g-link to="/plugins/">
+      <span class="main-nav__label">Plugins</span>
+    </g-link>
+    
+	<g-link to="/developers/">
+      <span class="main-nav__label">Developers<sup> <b style="color:var(--primary-color)"> NEW</b></sup></span>
+	</g-link>
+  
+    <g-link to="/blog/">
+      <span class="main-nav__label">Blog</span>
+    </g-link>
+	
+	<g-link to="/about/">
+      <span class="main-nav__label">About</span>
+    </g-link>
+    
     <div class="has-dropdown">
           <a
             aria-label="GitHub"
@@ -24,20 +40,6 @@
               WHM Plugins
             </a>
           </div>
-  
-	<g-link to="/developers/">
-      <span class="main-nav__label">Developers<sup> <b style="color:var(--primary-color)"> NEW</b></sup></span>
-	</g-link>
-  
-    <g-link to="/blog/">
-      <span class="main-nav__label">Blog</span>
-    </g-link>
-	
-	<g-link to="/about/">
-      <span class="main-nav__label">About</span>
-    </g-link>
-    
-    
   </nav>
 </template>
 
