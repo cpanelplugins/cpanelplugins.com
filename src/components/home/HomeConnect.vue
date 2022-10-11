@@ -6,7 +6,7 @@
         <p class="lead">
           Some of the best cPanel plugin developers are featured on our repository. They can customize the cPanel and WHM software for you to automate your daily tasks and help you achieve all your goals.
         </p>
-        <p><g-link to="/plugins/">Hire cPanel Plugin Developers</g-link></p>
+        <p><g-link to="/developers/">Hire cPanel Plugin Developers</g-link></p>
       </div>
        <div>
         <Connect />
