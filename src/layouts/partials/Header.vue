@@ -11,7 +11,7 @@
         
 		<g-link  to="/submit/" class="button primary button hide-for-small"><span>Submit a plugin</span></g-link>
         <ToggleTheme />
-		<a href="/submit/" class="show-for-small" rel="noopener noreferrer" target="_blank" title="Submit a plugin to CpanelPlugins"><span style="margin-left:5px;" class="show-for-small">Submit a plugin</span></a>
+		<a href="/submit/" class="show-for-small" rel="noopener noreferrer" title="Submit a plugin to CpanelPlugins"><span style="margin-left:5px;" class="show-for-small">Submit a plugin</span></a>
 		<!--div class="has-dropdown">
           <a
             aria-label="GitHub"
