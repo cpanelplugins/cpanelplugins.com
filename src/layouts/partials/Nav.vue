@@ -21,7 +21,7 @@
       <span class="main-nav__label">About</span>
     </g-link>
     
-    <div class="has-dropdown">
+    <--div class="has-dropdown">
           <a
             aria-label="GitHub"
             href="/plugins/"
@@ -39,7 +39,7 @@
             <a href="/plugins/platform/whm/" rel="noopener noreferrer" target="_blank">
               WHM Plugins
             </a>
-          </div>
+          </div-->
   </nav>
 </template>
 
