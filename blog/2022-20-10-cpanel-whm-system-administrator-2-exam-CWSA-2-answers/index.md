@@ -1,12 +1,12 @@
 ---
-title: cPanel & WHM Systems Administrator II  Exam (CWSA-2)) Answers 2022
+title: cPanel & WHM Systems Administrator II  Exam (CWSA-2) Answers 2022
 slug: cpanel-whm-system-administrator-2-exam-CWSA-2-answers
 author: [stefanpejcic]
 date: 2022-20-10
 excerpt: "Answers to CWSA-2 Exam"
 ---
 
-## cPanel & WHM Systems Administrator II (CWSA-2) 
+## cPanel & WHM Systems Administrator II (CWSA-2)
 
 All of the following resource limits may be set in a package except ...
 
