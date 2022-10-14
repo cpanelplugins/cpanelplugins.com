@@ -6,8 +6,6 @@ date: 2022-20-10
 excerpt: "Answers to CWSA-2 Exam"
 ---
 
-## cPanel & WHM Systems Administrator II (CWSA-2)
-
 All of the following resource limits may be set in a package except ...
 
 - cPanel accounts
