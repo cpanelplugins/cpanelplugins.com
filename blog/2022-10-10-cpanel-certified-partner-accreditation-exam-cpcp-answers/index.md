@@ -1114,9 +1114,27 @@ Which API allows you to manage cPanel licenses?
 
 ---
 
-All of the following scripts can be used in an application file except …
+Which file contains the settings for a plugin?
 
-- Perl
+- Configuration
+
+---
+
+Which term is defined as: "modifies an interface’s features or functionality, and it may also include changes to the interface’s appearance."?
+
+- plugin
+
+---
+
+The ea-cpanel-tools package contains executables to help you manage your EasyApache 4 configurations from the command line are found in this location:
+
+- /usr/local/bin
+
+---
+
+What of the following can be described as a structured way for one program to offer services to other programs?
+
+- API
 
 ---
 
@@ -1162,9 +1180,21 @@ Which API performs server-level tasks?
 
 ---
 
+All of the following are features of the developer license except …
+
+- production accounts are forbidden
+
+---
+
 While not advised, which port would you use for unsecured API calls to a specific cPanel account?
 
 - 2082
+
+---
+
+WHM plugins MAY BE available to which types of accounts?
+
+- Root or Reseller
 
 ---
 
@@ -1200,25 +1230,25 @@ All of the following code types can be run as a hook except …
 
 How many categories of hookable events are possible?
 
-- 12
+- 8
 
 ---
 
 The script that you need to use to “register” your standard hook is called …
 
-- manage_hooks
+- register_hooks
 
 ---
 
 Hook action code must be treated as an encoded data structure of which of the following types?
 
-- YAML
+- JSON
 
 ---
 
 All of the following stages can be hooked during a backup except …
 
-- pre ???
+- post
 
 ---
 
@@ -1242,13 +1272,31 @@ Which term is defined as: "Applies an overlay on the skeletal framework for all 
 
 When using whmapi1 on the command line and you want to perform a key/value call to the API you can specify all the following output formats except ...
 
-- yaml ???
+- yaml ??? xml ???
 
 ---
 
 Which of the following interfaces are you able to make branding changes to match your companies logo and brand?
 
 - cPanel & Webmail & WHM
+
+---
+
+What part of an API call will specify the session of the call?
+
+- token
+
+---
+
+Which language is used for a plugin installation?
+
+- Bash
+
+---
+
+You would use uapi functions when you want to perform which type of operation?
+
+- cPanel account-level operations
 
 ---
 
@@ -1260,7 +1308,7 @@ The EasyApache profiles are found in which location?
 
 When creating a custom profile file, which file type is used to store the information?
 
-- YAML ???
+- JSON
 
 ---
 
@@ -1293,9 +1341,21 @@ When setting "Disk Space Quota" during package creation, in which unit format mu
 - MB
 
 ---
+
+In order to add environment variables for your web applications, which RPM must be added?
+
+- ea-apache24-mod_env
+
+---
 As an end user, which is the proper way to restore your full cPanel backup?
 
 - Contact your hosting provider
+
+---
+
+All of the following resource limits may be set in a package except ...
+
+- cPanel accounts
 
 ---
 
@@ -1319,13 +1379,19 @@ A simple definition of a "package" on a WHM server would be as follows:
 
 During backups you need to specify staging directories, which of the following can not be used as a staging directory on your server?
 
-- /etc
+- /backup
 
 ---
 
 Which of the following can be customized in a package?
 
 - Feature List
+
+---
+
+What is the version control feature provided by cPanel?
+
+- Git™ Version Control
 
 ---
 
