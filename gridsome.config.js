@@ -4,7 +4,7 @@ module.exports = {
   siteName: 'CpanelPlugins',
   siteUrl: `https://cpanelplugins.com`,
   titleTemplate: '%s - CpanelPlugins',
-  siteDescription: 'Extend your hosting customers experience with our custom plugins for cPanel/WHM',
+  siteDescription: 'Extend your hosting customers experience with custom plugins for cPanel/WHM',
 
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg')
