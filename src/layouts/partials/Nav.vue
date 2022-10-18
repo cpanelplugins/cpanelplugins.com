@@ -24,13 +24,13 @@
     <div class="has-dropdown">
           <a
             aria-label="Exams"
-            href=""
+            href="#"
             rel="noopener noreferrer"
             target="_blank"
             title="Exams"
           ><span
              style="margin-left:5px;"
-            >Plugins</span>
+            >Exams</span>
           </a>
           <div class="dropdown">
             <a href="/blog/2022/10/30/whm-administration-certification-exam-cwa-answers/" rel="noopener noreferrer">
