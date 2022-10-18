@@ -12,6 +12,30 @@ All of the following resource limits may be set in a package except ...
 
 ---
 
+Which API allows you to manage cPanel licenses
+
+- Manage2 API
+
+---
+
+What is the purpose of the template file in a Plugin?
+
+- Displays UI content
+
+---
+
+The location of the branding files for root is found in which of these locations?
+
+- /var/cpanel/customizations/brand
+
+---
+
+The EasyApache profiles are found in which location?
+
+- /etc/cpanel/ea4
+
+---
+
 A simple definition of a "package" on a WHM server would be as follows:
 
 - a set of resource limits and list of usable features
