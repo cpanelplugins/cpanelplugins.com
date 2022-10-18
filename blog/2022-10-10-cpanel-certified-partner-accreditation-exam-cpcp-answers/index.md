@@ -1421,7 +1421,7 @@ The main purpose of the application Git is?
 
 Which of the following is one of the three types of articles you'll find within each of the parent categories of the knowledgebase?
 
-- Guidelines and Recommendations
+- Questions and Answers
 
 ---
 
