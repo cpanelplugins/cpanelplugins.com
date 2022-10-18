@@ -1413,9 +1413,6 @@ The main purpose of the application Git is?
 
 ---
 
-70
----
-
 ## Utilizing cPanel Support
 
 
