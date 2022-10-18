@@ -36,7 +36,7 @@
             <a href="/blog/2022/10/30/whm-administration-certification-exam-cwa-answers/" rel="noopener noreferrer">
               CWA
             </a>
-            <a href="/blog/2022/10/11/cpanel-whm-system-administrator-exam-cwsa-answers/" rel="noopener noreferrer">
+            <a href="/blog/2023/10/11/cpanel-whm-system-administrator-exam-cwsa-answers/" rel="noopener noreferrer">
               CWSA
             </a>
             <a href="/blog/2022/10/20/cpanel-whm-system-administrator-2-exam-cwsa-2-answers/" rel="noopener noreferrer">
