@@ -26,7 +26,7 @@
             aria-label="Exams"
             href="#"
             rel="noopener noreferrer"
-            target="_blank"
+            target="_self"
             title="Exams"
           ><span
              style="margin-left:5px;"
