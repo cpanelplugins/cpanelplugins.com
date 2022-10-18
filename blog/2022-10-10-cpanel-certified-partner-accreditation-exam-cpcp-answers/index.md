@@ -1451,7 +1451,7 @@ As a cPanel Support customer, we recommend that you start your visit at support.
 
 What label is shown on the "big orange button" that directs you towards a list of categories for browsing the knowledge base articles?
 
-- Information Center
+- Support Topics
 
 ---
 
