@@ -4,6 +4,7 @@ slug: whm-administration-certification-exam-CWA-answers
 author: [stefanpejcic]
 date: 2022-10-30
 excerpt: "Answers to CWA Exam"
+tags: ["exams"]
 ---
 
 Given the following options, which indicates the ideal source from which you should obtain your server's resolver IP addresses?
