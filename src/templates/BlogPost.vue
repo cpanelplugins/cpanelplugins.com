@@ -29,6 +29,10 @@ query ($id: ID!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     content
+    tags {
+      title
+      path
+    }
     author {
       id
       title
