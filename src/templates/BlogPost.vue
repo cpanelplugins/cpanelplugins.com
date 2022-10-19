@@ -32,7 +32,7 @@ query ($id: ID!) {
     tags {
       title
       path
-    }
+    },
     author {
       id
       title
