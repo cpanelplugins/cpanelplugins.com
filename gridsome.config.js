@@ -34,8 +34,6 @@ module.exports = {
     Contributor: '/contributor/:id',
     Plugin: '/plugins/:title',
     Platform: '/plugins/platform/:id',
-    // add the tags template
-    Tag: '/tag/:id/',
     Example: node => node.path
   },
 
