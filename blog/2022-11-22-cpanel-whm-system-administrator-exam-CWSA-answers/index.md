@@ -4,6 +4,7 @@ slug: cpanel-whm-system-administrator-exam-CWSA-answers
 author: [stefanpejcic]
 date: 2022-22-11
 excerpt: "Answers to CWSA Exam"
+tags: ["exams"]
 ---
 
 In a cPanel & WHM environment, which of the following tools can be best described as the executable that reads the grants_cpuser.yaml file, then adds the corresponding grants to MySQL.
