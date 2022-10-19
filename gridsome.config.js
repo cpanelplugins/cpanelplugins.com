@@ -96,14 +96,7 @@ module.exports = {
           plugins: [
             '@gridsome/remark-prismjs'
           ]
-        },
-        // add this refs section so the BlogPosts are linked with the generated Tags pages
-        refs: {
-          tags: {
-            typeName: 'Tag',
-            create: true,
-          },
-        },
+        }
       }
     }
   ]
