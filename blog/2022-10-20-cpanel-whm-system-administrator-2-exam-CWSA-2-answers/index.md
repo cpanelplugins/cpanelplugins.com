@@ -4,6 +4,7 @@ slug: cpanel-whm-system-administrator-2-exam-CWSA-2-answers
 author: [stefanpejcic]
 date: 2022-10-20
 excerpt: "Answers to CWSA-2 Exam"
+tags: ["exams"]
 ---
 
 All of the following resource limits may be set in a package except ...
