@@ -4,6 +4,7 @@ slug: demo-cpanel-plugins
 author: [stefanpejcic]
 date: 2022-10-01
 excerpt: "test free cpanel plugins online on demo.cpanelplugins.com"
+tags: ["blog"]
 ---
 
 <a href="https://demo.cpanelplugins.com/" target="_blank"><img src="https://demo.cpanelplugins.com/screenshot.png"></img></a>
