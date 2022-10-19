@@ -29,15 +29,15 @@ query ($id: ID!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     content
-    tags {
-      title
-      path
-    },
     author {
       id
       title
       path,
       avatar (width: 60)
+    }
+    tags {
+      title
+      path
     }
     excerpt
   }
