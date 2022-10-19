@@ -34,6 +34,8 @@ module.exports = {
     Contributor: '/contributor/:id',
     Plugin: '/plugins/:title',
     Platform: '/plugins/platform/:id',
+    // add the tags template
+    Tag: '/tag/:id/',
     Example: node => node.path
   },
 
@@ -94,7 +96,14 @@ module.exports = {
           plugins: [
             '@gridsome/remark-prismjs'
           ]
-        }
+        },
+        // add this refs section so the BlogPosts are linked with the generated Tags pages
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true,
+          },
+        },
       }
     }
   ]
