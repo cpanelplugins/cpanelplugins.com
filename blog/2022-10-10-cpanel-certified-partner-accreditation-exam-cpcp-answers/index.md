@@ -4,6 +4,7 @@ slug: cpanel-certified-partner-accreditation-exam-cpcp-answers
 author: [stefanpejcic]
 date: 2022-10-10
 excerpt: "Answers to CPCP Exam"
+tags: ["exams"]
 ---
 
 cPanel Certified Partner Accreditation (CPCP) Exam is divided in 6 sections, first 5 consist of 40 questions each, and last section has only 10 questions.
