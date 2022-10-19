@@ -1,9 +1,10 @@
 ---
-title: 1st cPanel plugin published - 🪵 Login Log
+title: 1st cPanel plugin published - 📜 Login Log
 slug: login-log-cpanel-plugin
 author: [stefanpejcic]
 date: 2022-05-05
 excerpt: "Free cpanel plugin to list latest successful logins to cpanel"
+tags: ["blog"]
 ---
 
 <img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img>
