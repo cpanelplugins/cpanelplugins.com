@@ -35,10 +35,6 @@ query ($id: ID!) {
       path,
       avatar (width: 60)
     }
-    tags {
-      title
-      path
-    }
     excerpt
   }
 }
