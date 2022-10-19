@@ -4,6 +4,7 @@ slug: cpanel-plugins-is-live
 author: [stefanpejcic]
 date: 2022-06-20
 excerpt: "CpanelPlugins.com website is published!"
+tags: ["blog"]
 ---
 
 <img src="https://raw.githubusercontent.com/cpanelplugins/cpanelplugins.com/master/plugins/screenshots/cpanel-plugins-homepage.png"></img>
