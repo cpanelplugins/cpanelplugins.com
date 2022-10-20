@@ -19,9 +19,33 @@
 
       <Newsletter />
     </Section>
-    <script>
+    
+  </Layout>
+</template>
+
+<page-query>
+query ($id: ID!) {
+  post: blogPost (id: $id) {
+    title
+    date (format: "D. MMMM YYYY")
+    timeToRead
+    content
+    author {
+      id
+      title
+      path,
+      avatar (width: 60)
+    }
+    excerpt
+  }
+}
+</page-query>
+
+<script>
+import PostMeta from '@/components/PostMeta.vue'
+import Newsletter from '@/components/Newsletter.vue'
 export default {
-    data() {
+data() {
         return {
             observer: null,
         }
@@ -56,33 +80,6 @@ export default {
             })
         },
     },
-}
-</script>
-  </Layout>
-</template>
-
-<page-query>
-query ($id: ID!) {
-  post: blogPost (id: $id) {
-    title
-    date (format: "D. MMMM YYYY")
-    timeToRead
-    content
-    author {
-      id
-      title
-      path,
-      avatar (width: 60)
-    }
-    excerpt
-  }
-}
-</page-query>
-
-<script>
-import PostMeta from '@/components/PostMeta.vue'
-import Newsletter from '@/components/Newsletter.vue'
-export default {
   components: {
     PostMeta,
     Newsletter
