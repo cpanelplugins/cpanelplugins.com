@@ -45,41 +45,6 @@ query ($id: ID!) {
 import PostMeta from '@/components/PostMeta.vue'
 import Newsletter from '@/components/Newsletter.vue'
 export default {
-data() {
-        return {
-            observer: null,
-        }
-    },
-    created() {
-        this.observer = new IntersectionObserver(this.onElementObserved, {
-            root: this.$el,
-            threshold: 0.22,
-        })
-    },
-    mounted() {
-        this.$el.querySelectorAll('section[id]').forEach((section) => {
-            this.observer.observe(section)
-        })
-    },
-    beforeDestroy() {
-        this.observer.disconnect()
-    },
-    methods: {
-        onElementObserved(entries) {
-            entries.forEach(({ target, isIntersecting }) => {
-                const id = target.getAttribute('id')
-                if (isIntersecting) {
-                    this.$el
-                        .querySelector(`nav li a[href="#${id}"]`)
-                        .parentElement.classList.add('active')
-                } else {
-                    this.$el
-                        .querySelector(`nav li a[href="#${id}"]`)
-                        .parentElement.classList.remove('active')
-                }
-            })
-        },
-    },
   components: {
     PostMeta,
     Newsletter
