@@ -1,7 +1,7 @@
 <template>
   <Layout>
      <Section container="sm">
-      <h1 class="text-center">Hire cPanel Plugin Developers</h1>
+      <h1 class="text-center">Hire <span style="color:var(--primary-color)">cP</span>anel Plugin Developers</h1>
 
 <p>Looking for an experienced cPanel plugin developer to help you customize an existing plugin or create a new one?</p>
 <p>Here is a list of experienced cPanel plugin developers that have already published useful cPanel plugins:</p>
