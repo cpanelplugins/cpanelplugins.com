@@ -33,16 +33,16 @@
             >Exams</span>
           </a>
           <div class="dropdown">
-            <a href="/blog/whm-administration-certification-exam-cwa-answers/" rel="noopener noreferrer">
+            <a href="/exams/whm-administration-certification-exam-cwa-answers/" rel="noopener noreferrer">
               CWA
             </a>
-            <a href="/blog/cpanel-whm-system-administrator-exam-cwsa-answers/" rel="noopener noreferrer">
+            <a href="/exams/cpanel-whm-system-administrator-exam-cwsa-answers/" rel="noopener noreferrer">
               CWSA
             </a>
-            <a href="/blog/cpanel-whm-system-administrator-2-exam-cwsa-2-answers/" rel="noopener noreferrer">
+            <a href="/exams/cpanel-whm-system-administrator-2-exam-cwsa-2-answers/" rel="noopener noreferrer">
               CWSA-2
             </a>
-            <a href="/blog/cpanel-certified-partner-accreditation-exam-cpcp-answers/" rel="noopener noreferrer">
+            <a href="/exams/cpanel-certified-partner-accreditation-exam-cpcp-answers/" rel="noopener noreferrer">
               CPCP
             </a>
           </div>
