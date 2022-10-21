@@ -54,6 +54,11 @@ module.exports = {
             priority: 0.5,
             lastmod: '2020-02-19',
           },
+          '/exams/*': {
+            changefreq: 'weekly',
+            priority: 0.5,
+            lastmod: '2022-11-11',
+          },
           '/blog/*': {
             changefreq: 'monthly',
             priority: 0.7,
