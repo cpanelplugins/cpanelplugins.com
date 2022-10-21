@@ -24,7 +24,7 @@
     <div class="has-dropdown">
           <a
             aria-label="Exams"
-            href="#"
+            href="/exams/"
             rel="noopener noreferrer"
             target="_self"
             title="Exams"
