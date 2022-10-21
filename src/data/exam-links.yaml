@@ -1,10 +1,10 @@
-- title: Exams
+- title: cPanel Exam answers
   items:
     - title: CWA
-      link: /exams/cwa/
+      link: /exams/whm-administration-certification-exam-CWA-answers/
     - title: CWSA
-      link: /exams/cwsa/
+      link: /exams/cpanel-whm-system-administrator-exam-CWSA-answers/
     - title: CWSA-2
-      link: /exams/cwsa-2/
+      link: /exams/cpanel-whm-system-administrator-2-exam-CWSA-2-answers/
     - title: CPCP
-      link: /exams/cpcp/
+      link: /exams/cpanel-certified-partner-accreditation-exam-cpcp-answers/
