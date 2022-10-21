@@ -1,5 +1,5 @@
 <template>
-  <Layout class="has-sidebar docs-page" :footer="false">
+  <Layout class="has-sidebar docs-page" :footer="true">
     <div class="container flex flex-align-top">
       <Section class="doc-content flex-fit" container="">
         <slot></slot>
