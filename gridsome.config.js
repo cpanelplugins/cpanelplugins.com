@@ -71,6 +71,27 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/vue-remark',
+      options: {
+        index: ['README'],
+        baseDir: './exams',
+        pathPrefix: '/exams',
+        typeName: 'DocPage',
+        template: './src/templates/DocPage.vue',
+        plugins: [
+          '@gridsome/remark-prismjs'
+        ],
+        remark: {
+          autolinkHeadings: {
+            content: {
+              type: 'text',
+              value: '#'
+            }
+          }
+        }
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'examples/*.md',
