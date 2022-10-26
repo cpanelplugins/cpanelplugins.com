@@ -420,3 +420,12 @@
   author: stefanpejcic
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: cp 
+  
+- title: SMTP2GO
+  description: Outgoing SMTP Server in cPanel & WHM
+  screenshot: ./screenshots/rsmtp2go.png
+  repo: cpanelplugins/smtp2go
+  preview: https://support.smtp2go.com/hc/en-gb/articles/4405809053977-cPanel-WHM-Plugin
+  author: smtp2go
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: cp 
