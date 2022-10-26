@@ -428,4 +428,4 @@
   preview: https://support.smtp2go.com/hc/en-gb/articles/4405809053977-cPanel-WHM-Plugin
   author: smtp2go
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-  platforms: cp 
+  platforms: whm 
