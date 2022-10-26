@@ -4,6 +4,12 @@
   avatar: "./images/stefanpejcic.jpg"
   twitter: "@pejcic_rs"
 
+- id: smtp2go
+  name: SMTP2GO
+  bio: "Easily send and track all of your emails"
+  avatar: "./images/smtp2g.jpg"
+  twitter: "@smtp2go"
+
 - id: litespeedtech
   name: LiteSpeed Tech
   bio: ⚡ Internet. Accelerated. ⚡
