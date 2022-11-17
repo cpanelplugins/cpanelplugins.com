@@ -9,7 +9,13 @@
   bio: "Easily send and track all of your emails"
   avatar: "./images/smtp2g.jpg"
   twitter: "@smtp2go"
-
+  
+- id: acronis
+  name: Acronis
+  bio: "Superior #CyberProtection for data, applications, and systems"
+  avatar: "./images/acronis.jpg"
+  twitter: "@acronis"
+  
 - id: litespeedtech
   name: LiteSpeed Tech
   bio: ⚡ Internet. Accelerated. ⚡
