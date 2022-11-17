@@ -429,3 +429,13 @@
   author: smtp2go
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: whm 
+
+- title: Acronis Backup
+  description: Outgoing SMTP Server in cPanel & WHM
+  screenshot: ./screenshots/acronis.png
+  repo: cpanelplugins/acronis-backup
+  preview: https://dl.acronis.com/u/pdf/Acronis_Backup_plugin_for_cPanel_en-US.pdf
+  author: acronis
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: cp
+  
