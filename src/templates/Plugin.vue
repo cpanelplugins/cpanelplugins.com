@@ -33,9 +33,7 @@
 
             <div slot="content">
               <p style="margin-bottom: .5rem; display: block;">
-              To install this cPanel plugin you need to have <strong><g-link to="https://support.cpanel.net/hc/en-us/articles/360051754554-How-do-I-log-in-to-my-cPanel-account-as-root-">root</g-link></strong> account
-              </br>
-              Follow the instructions from this git repository:</p>
+               Follow the instructions from this git repository:</p>
               <div class="mb">
                 <code class="plugin__command flex" style="overflow: hidden;">
                   <span ref="command">
@@ -47,6 +45,9 @@
                   </button>
                 </code>
               </div>
+              <p style="margin-bottom: .5rem; display: block;">
+              💡 To install this cPanel plugin you need to have <strong><g-link to="https://support.cpanel.net/hc/en-us/articles/360051754554-How-do-I-log-in-to-my-cPanel-account-as-root-">root</g-link></strong> account.
+              </p>
               <hr />
               <div class="deploy-buttons flex">
                 <a class="button button--small" style="width: 100%; text-align: center; display:block;" href="/plugin-installation">
