@@ -34,11 +34,12 @@
             <div slot="content">
               <p style="margin-bottom: .5rem; display: block;">
               To install this cPanel plugin you need to have <strong><g-link to="https://support.cpanel.net/hc/en-us/articles/360051754554-How-do-I-log-in-to-my-cPanel-account-as-root-">root</g-link></strong> account
-              </p>
+              </br>
+              Follow the instructions from this git repository:</p>
               <div class="mb">
                 <code class="plugin__command flex" style="overflow: hidden;">
                   <span ref="command">
-				  git clone https://github.com/{{ $page.plugin.repo }}.git
+				  https://github.com/{{ $page.plugin.repo }}.git
 				  </span>
                   <button class="button button--xsmall" @click="copyCommand()">
                     <ClipboardIcon title="Copy to clipboard" width="16" height="16" />
@@ -47,11 +48,11 @@
                 </code>
               </div>
               <hr />
-              <!--div class="deploy-buttons flex">
+              <div class="deploy-buttons flex">
                 <a class="button button--small" style="width: 100%; text-align: center; display:block;" href="/plugin-installation">
                   <cPanelLogo alt="cPanel plugin installation service" height="16" /> cPanel plugin installation service - $9.95
                 </a>
-              </div-->
+              </div>
             </div>
           </Popover>
         </div>
