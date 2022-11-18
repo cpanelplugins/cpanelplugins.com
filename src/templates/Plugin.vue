@@ -50,7 +50,7 @@
               </p>
               <hr />
               <div class="deploy-buttons flex">
-                <a class="button button--small" style="width: 100%; text-align: center; display:block;" href="/plugin-installation">
+                <a class="button button--small" style="width: 100%; text-align: center; display:block;" href="mailto:stefan@cpanelplugins.com">
                   <cPanelLogo alt="cPanel plugin installation service" height="16" /> cPanel plugin installation service - $9.95
                 </a>
               </div>
