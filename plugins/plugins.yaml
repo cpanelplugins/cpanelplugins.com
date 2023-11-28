@@ -439,3 +439,11 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: cp
   
+- title: Vvveb CMS
+  description: Automatic installer for Vvveb CMS - Powerful and easy to use page builder CMS for blogs, websites or ecommerce stores.
+  screenshot: ./screenshots/vvveb.png
+  repo: Vvveb/cpanel-plugin
+  preview: https://demo.vvveb.com/admin
+  author: givanz
+  tags: plugin, cpanel, cms, php, ecommerce, blog-engine, self-hosted, web-application, website-builder, content-management, php-cms, ecommerce-platform, page-builder, blog-platform, no-code, php8
+  platforms: cp
